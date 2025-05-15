@@ -1,0 +1,2355 @@
+[
+    {
+        "route_name" : "Lake Verity",
+        "route_number" : 200,
+        "available_pokemon" : [
+            {
+                "name" : "Starly",
+                "location" : "Grass",
+                "level_min" : 2,
+                "level_max" : 4,
+                "morning_encounter_rate" : 0.5,
+                "day_encounter_rate" : 0.5,
+                "night_encounter_rate" : 0.4
+            },
+            {
+                "name" : "Bidoof",
+                "location" : "Grass",
+                "level_min" : 2,
+                "level_max" : 4,
+                "morning_encounter_rate" : 0.5,
+                "day_encounter_rate" : 0.5,
+                "night_encounter_rate" : 0.6
+            }
+        ]
+    },
+    {
+        "route_name" : "Route 201",
+        "route_number" : 201,
+        "available_pokemon" : [
+            {
+                "name" : "Starly",
+                "location" : "Grass",
+                "level_min" : 2,
+                "level_max" : 3,
+                "morning_encounter_rate" : 0.5,
+                "day_encounter_rate" : 0.5,
+                "night_encounter_rate" : 0.4
+            },
+            {
+                "name" : "Bidoof",
+                "location" : "Grass",
+                "level_min" : 2,
+                "level_max" : 3,
+                "morning_encounter_rate" : 0.4,
+                "day_encounter_rate" : 0.5,
+                "night_encounter_rate" : 0.5
+            },
+            {
+                "name" : "Kricketot",
+                "location" : "Grass",
+                "level_min" : 3,
+                "level_max" : 3,
+                "morning_encounter_rate" : 0.1,
+                "day_encounter_rate" : 0.0,
+                "night_encounter_rate" : 0.1
+            }
+        ]
+    },
+    {
+        "route_name" : "Route 202",
+        "route_number" : 202,
+        "available_pokemon" : [
+            {
+                "name" : "Bidoof",
+                "location" : "Grass",
+                "level_min" : 2,
+                "level_max" : 4,
+                "morning_encounter_rate" : 0.4,
+                "day_encounter_rate" : 0.5,
+                "night_encounter_rate" : 0.5
+            },
+            {
+                "name" : "Shinx",
+                "location" : "Grass",
+                "level_min" : 3,
+               "level_max" : 4,
+               "morning_encounter_rate" : 0.3,
+               "day_encounter_rate" : 0.3,
+               "night_encounter_rate" : 0.3
+            },
+            {
+                "name" : "Starly",
+                "location" : "Grass",
+                "level_min" : 2,
+                "level_max" : 4,
+                "morning_encounter_rate" : 0.2,
+                "day_encounter_rate" : 0.2,
+                "night_encounter_rate" : 0.1
+            },
+            {
+                "name" : "Kricketot",
+                "location" : "Grass",
+                "level_min" : 3,
+                "level_max" : 3,
+                "morning_encounter_rate" : 0.1,
+                "day_encounter_rate" : 0.0,
+                "night_encounter_rate" : 0.0
+            },
+            {
+                "name" : "Kricketot",
+                "location" : "Grass",
+                "level_min" : 4,
+                "level_max" : 4,
+                "morning_encounter_rate" : 0.0,
+                "day_encounter_rate" : 0.0,
+                "night_encounter_rate" : 0.1
+            }
+        ]
+    },
+    {
+        "route_name" : "Route 203",
+        "route_number" : 203,
+        "available_pokemon" : [
+            {
+                "name" : "Zubat",
+                "location" : "Grass",
+                "level_min" : 4,
+                "level_max" : 4,
+                "morning_encounter_rate" : 0.0,
+                "day_encounter_rate" : 0.0,
+                "night_encounter_rate" : 0.1
+            },
+            {
+                    "name" : "Abra",
+                    "location" : "Grass",
+                    "level_min" : 4,
+                    "level_max" : 5,
+                    "morning_encounter_rate" : 0.15,
+                    "day_encounter_rate" : 0.15,
+                    "night_encounter_rate" : 0.15
+            },
+            {
+                    "name" : "Starly",
+                    "location" : "Grass",
+                    "level_min" : 4,
+                    "level_max" : 7,
+                    "morning_encounter_rate" : 0.25,
+                    "day_encounter_rate" : 0.25,
+                    "night_encounter_rate" : 0.25
+            },
+            {
+                    "name" : "Starly",
+                    "location" : "Grass",
+                    "level_min" : 5,
+                    "level_max" : 5,
+                    "morning_encounter_rate" : 0.1,
+                    "day_encounter_rate" : 0.1,
+                    "night_encounter_rate" : 0.0
+            },
+            {
+                    "name" : "Bidoof",
+                    "location" : "Grass",
+                    "level_min" : 5,
+                    "level_max" : 7,
+                    "morning_encounter_rate" : 0.15,
+                    "day_encounter_rate" : 0.15,
+                    "night_encounter_rate" : 0.15
+            },
+            {
+                    "name" : "Bidoof",
+                    "location" : "Grass",
+                    "level_min" : 4,
+                    "level_max" : 4,
+                    "morning_encounter_rate" : 0.0,
+                    "day_encounter_rate" : 0.1,
+                    "night_encounter_rate" : 0.0
+            },
+            {
+                    "name" : "Kricketot",
+                    "location" : "Grass",
+                    "level_min" : 4,
+                    "level_max" : 4,
+                    "morning_encounter_rate" : 0.1,
+                    "day_encounter_rate" : 0.0,
+                    "night_encounter_rate" : 0.0
+            },
+            {
+                    "name" : "Kricketot",
+                    "location" : "Grass",
+                    "level_min" : 5,
+                    "level_max" : 5,
+                    "morning_encounter_rate" : 0.0,
+                    "day_encounter_rate" : 0.0,
+                    "night_encounter_rate" : 0.1
+            },
+            {
+                    "name" : "Shinx",
+                    "location" : "Grass",
+                    "level_min" : 4,
+                    "level_max" : 5,
+                    "morning_encounter_rate" : 0.25,
+                    "day_encounter_rate" : 0.25,
+                    "night_encounter_rate" : 0.25
+            }
+        ]
+    },
+    {
+        "route_name" : "Oreburgh Gate (1F)",
+        "route_number" : 203,
+        "available_pokemon" : [
+            {
+                "name" : "Zubat",
+                "location" : "Cave",
+                "level_min" : 5,
+                "level_max" : 8,
+                "morning_encounter_rate" : 0.5,
+                "day_encounter_rate" : 0.5,
+                "night_encounter_rate" : 0.5
+            },
+            {
+                "name" : "Psyduck",
+                "location" : "Cave",
+                "level_min" : 5,
+                "level_max" : 7,
+                "morning_encounter_rate" : 0.35,
+                "day_encounter_rate" : 0.35,
+                "night_encounter_rate" : 0.35
+            },
+            {
+                "name" : "Geodude",
+                "location" : "Cave",
+                "level_min" : 5,
+                "level_max" : 7,
+                "morning_encounter_rate" : 0.15,
+                "day_encounter_rate" : 0.15,
+                "night_encounter_rate" : 0.15
+            }
+        ]
+    },
+    {
+        "route_name" : "Oreburgh Mine (1F)",
+        "route_number" : 203,
+        "available_pokemon" : [
+            {
+                "name" : "Zubat",
+                "location" : "Cave",
+                "level_min" : 5,
+                "level_max" : 7,
+                "morning_encounter_rate" : 0.25,
+                "day_encounter_rate" : 0.25,
+                "night_encounter_rate" : 0.25
+            },
+            {
+                "name" : "Geodude",
+                "location" : "Cave",
+                "level_min" : 4,
+                "level_max" : 8,
+                "morning_encounter_rate" : 0.65,
+                "day_encounter_rate" : 0.65,
+                "night_encounter_rate" : 0.65
+            },
+            {
+                "name" : "Onix",
+                "location" : "Cave",
+                "level_min" : 6,
+                "level_max" : 8,
+                "morning_encounter_rate" : 0.1,
+                "day_encounter_rate" : 0.1,
+                "night_encounter_rate" : 0.1
+            }
+        ]
+    },
+    {
+        "route_name" : "Oreburgh Mine (B1F)",
+        "route_number" : 203,
+        "available_pokemon" : [
+            {
+                "name" : "Zubat",
+                "location" : "Cave",
+                "level_min" : 6,
+                "level_max" : 8,
+                "morning_encounter_rate" : 0.25,
+                "day_encounter_rate" : 0.25,
+                "night_encounter_rate" : 0.25
+            },
+            {
+                "name" : "Geodude",
+                "location" : "Cave",
+                "level_min" : 5,
+                "level_max" : 9,
+                "morning_encounter_rate" : 0.65,
+                "day_encounter_rate" : 0.65,
+                "night_encounter_rate" : 0.65
+            },
+            {
+                "name" : "Onix",
+                "location" : "Cave",
+                "level_min" : 7,
+                "level_max" : 9,
+                "morning_encounter_rate" : 0.1,
+                "day_encounter_rate" : 0.1,
+                "night_encounter_rate" : 0.1
+            }
+        ]
+    },
+    {
+        "route_name" : "Route 204 (south)",
+        "route_number" : 204,
+        "available_pokemon" : [
+            {
+                "name" : "Zubat",
+                "location" : "Grass",
+                "level_min" : 3,
+                "level_max" : 3,
+                "morning_encounter_rate" : 0.0,
+                "day_encounter_rate" : 0.0,
+                "night_encounter_rate" : 0.1
+            },
+            {
+                "name" : "Wurmple",
+                "location" : "Grass",
+                "level_min" : 4,
+                "level_max" : 4,
+                "morning_encounter_rate" : 0.1,
+                "day_encounter_rate" : 0.1,
+                "night_encounter_rate" : 0.0
+            },
+            {
+                "name" : "Starly",
+                "location" : "Grass",
+                "level_min" : 4,
+                "level_max" : 6,
+                "morning_encounter_rate" : 0.25,
+                "day_encounter_rate" : 0.25,
+                "night_encounter_rate" : 0.25
+            },
+            {
+                "name" : "Bidoof",
+                "location" : "Grass",
+                "level_min" : 4,
+                "level_max" : 6,
+                "morning_encounter_rate" : 0.25,
+                "day_encounter_rate" : 0.25,
+                "night_encounter_rate" : 0.25
+            },
+            {
+                "name" : "Kricketot",
+                "location" : "Grass",
+                "level_min" : 3,
+                "level_max" : 3,
+                "morning_encounter_rate" : 0.1,
+                "day_encounter_rate" : 0.0,
+                "night_encounter_rate" : 0.0
+            },
+            {
+                "name" : "Kricketot",
+                "location" : "Grass",
+                "level_min" : 4,
+                "level_max" : 4,
+                "morning_encounter_rate" : 0.0,
+                "day_encounter_rate" : 0.0,
+                "night_encounter_rate" : 0.1
+            },
+            {
+                "name" : "Shinx",
+                "location" : "Grass",
+                "level_min" : 4,
+                "level_max" : 5,
+                "morning_encounter_rate" : 0.15,
+                "day_encounter_rate" : 0.15,
+                "night_encounter_rate" : 0.15
+            },
+            {
+                "name" : "Budew",
+                "location" : "Grass",
+                "level_min" : 3,
+                "level_max" : 5,
+                "morning_encounter_rate" : 0.0,
+                "day_encounter_rate" : 0.25,
+                "night_encounter_rate" : 0.0
+            },
+            {
+                "name" : "Budew",
+                "location" : "Grass",
+                "level_min" : 4,
+                "level_max" : 5,
+                "morning_encounter_rate" : 0.15,
+                "day_encounter_rate" : 0.0,
+                "night_encounter_rate" : 0.15
+            }
+        ]
+    },
+    {
+        "route_name" : "Ravaged Path",
+        "route_number" : 204,
+        "available_pokemon" : [
+            {
+                "name" : "Zubat",
+                "location" : "Cave",
+                "level_min" : 3,
+                "level_max" : 6,
+                "morning_encounter_rate" : 0.65,
+                "day_encounter_rate" : 0.65,
+                "night_encounter_rate" : 0.65
+            },
+            {
+                "name" : "Psyduck",
+                "location" : "Cave",
+                "level_min" : 4,
+                "level_max" : 6,
+                "morning_encounter_rate" : 0.35,
+                "day_encounter_rate" : 0.35,
+                "night_encounter_rate" : 0.35
+            }
+        ]
+    },
+    {
+        "route_name" : "Route 204 (north)",
+        "route_number" : 204,
+        "available_pokemon" : [
+            {
+                "name" : "Zubat",
+                "location" : "Grass",
+                "level_min" : 8,
+                "level_max" : 8,
+                "morning_encounter_rate" : 0.0,
+                "day_encounter_rate" : 0.0,
+                "night_encounter_rate" : 0.1
+            },
+            {
+                "name" : "Wurmple",
+                "location" : "Grass",
+                "level_min" : 9,
+                "level_max" : 9,
+                "morning_encounter_rate" : 0.1,
+                "day_encounter_rate" : 0.1,
+                "night_encounter_rate" : 0.0
+            },
+            {
+                "name" : "Starly",
+                "location" : "Grass",
+                "level_min" : 9,
+                "level_max" : 11,
+                "morning_encounter_rate" : 0.25,
+                "day_encounter_rate" : 0.25,
+                "night_encounter_rate" : 0.25
+            },
+            {
+                "name" : "Bidoof",
+                "location" : "Grass",
+                "level_min" : 9,
+                "level_max" : 11,
+                "morning_encounter_rate" : 0.25,
+                "day_encounter_rate" : 0.25,
+                "night_encounter_rate" : 0.25
+            },
+            {
+                "name" : "Kricketot",
+                "location" : "Grass",
+                "level_min" : 8,
+                "level_max" : 8,
+                "morning_encounter_rate" : 0.1,
+                "day_encounter_rate" : 0.0,
+                "night_encounter_rate" : 0.0
+            },
+            {
+                "name" : "Kricketot",
+                "location" : "Grass",
+                "level_min" : 9,
+                "level_max" : 9,
+                "morning_encounter_rate" : 0.0,
+                "day_encounter_rate" : 0.0,
+                "night_encounter_rate" : 0.1
+            },
+            {
+                "name" : "Shinx",
+                "location" : "Grass",
+                "level_min" : 9,
+                "level_max" : 10,
+                "morning_encounter_rate" : 0.15,
+                "day_encounter_rate" : 0.15,
+                "night_encounter_rate" : 0.15
+            },
+            {
+                "name" : "Budew",
+                "location" : "Grass",
+                "level_min" : 8,
+                "level_max" : 10,
+                "morning_encounter_rate" : 0.15,
+                "day_encounter_rate" : 0.25,
+                "night_encounter_rate" : 0.15
+            }
+        ]
+    },
+    {
+        "route_name" : "Route 205 (south)",
+        "route_number" : 205,
+        "available_pokemon" : [
+            {
+                "name" : "Bidoof",
+                "location" : "Grass",
+                "level_min" : 10,
+                "level_max" : 10,
+                "morning_encounter_rate" : 0.1,
+                "day_encounter_rate" : 0.1,
+                "night_encounter_rate" : 0.1
+            },
+            {
+                "name" : "Pachirisu",
+                "location" : "Grass",
+                "level_min" : 9,
+                "level_max" : 11,
+                "morning_encounter_rate" : 0.1,
+                "day_encounter_rate" : 0.1,
+                "night_encounter_rate" : 0.1
+            },
+            {
+                "name" : "Buizel",
+                "location" : "Grass",
+                "level_min" : 10,
+                "level_max" : 11,
+                "morning_encounter_rate" : 0.15,
+                "day_encounter_rate" : 0.15,
+                "night_encounter_rate" : 0.15
+            },
+            {
+                "name" : "Shellos",
+                "location" : "Grass",
+                "level_min" : 9,
+                "level_max" : 12,
+                "morning_encounter_rate" : 0.65,
+                "day_encounter_rate" : 0.65,
+                "night_encounter_rate" : 0.65
+            }
+        ]
+    },
+    {
+        "route_name" : "Eterna Forest",
+        "route_number" : 205,
+        "available_pokemon" : [
+            {
+                "name" : "Gastly",
+                "location" : "Grass",
+                "level_min" : 13,
+                "level_max" : 13,
+                "morning_encounter_rate" : 0.04,
+                "day_encounter_rate" : 0.04,
+                "night_encounter_rate" : 0.04
+            },
+            {
+                "name" : "Bidoof",
+                "location" : "Grass",
+                "level_min" : 12,
+                "level_max" : 12,
+                "morning_encounter_rate" : 0.1,
+                "day_encounter_rate" : 0.1,
+                "night_encounter_rate" : 0.1
+            },
+            {
+                "name" : "Buneary",
+                "location" : "Grass",
+                "level_min" : 11,
+                "level_max" : 13,
+                "morning_encounter_rate" : 0.24,
+                "day_encounter_rate" : 0.24,
+                "night_encounter_rate" : 0.24
+            },
+            {
+                "name" : "Wurmple",
+                "location" : "Grass",
+                "level_min" : 10,
+                "level_max" : 10,
+                "morning_encounter_rate" : 0.1,
+                "day_encounter_rate" : 0.1,
+                "night_encounter_rate" : 0.0
+            },
+            {
+                "name" : "Silcoon",
+                "location" : "Grass",
+                "level_min" : 12,
+                "level_max" : 12,
+                "morning_encounter_rate" : 0.05,
+                "day_encounter_rate" : 0.05,
+                "night_encounter_rate" : 0.05
+            },
+            {
+                "name" : "Beautifly",
+                "location" : "Grass",
+                "level_min" : 14,
+                "level_max" : 14,
+                "morning_encounter_rate" : 0.01,
+                "day_encounter_rate" : 0.01,
+                "night_encounter_rate" : 0.01
+            },
+            {
+                "name" : "Cascoon",
+                "location" : "Grass",
+                "level_min" : 12,
+                "level_max" : 12,
+                "morning_encounter_rate" : 0.05,
+                "day_encounter_rate" : 0.05,
+                "night_encounter_rate" : 0.05
+            },
+            {
+                "name" : "Dustox",
+                "location" : "Grass",
+                "level_min" : 14,
+                "level_max" : 14,
+                "morning_encounter_rate" : 0.01,
+                "day_encounter_rate" : 0.01,
+                "night_encounter_rate" : 0.01
+            },
+            {
+                "name" : "Kricketot",
+                "location" : "Grass",
+                "level_min" : 12,
+                "level_max" : 12,
+                "morning_encounter_rate" : 0.1,
+                "day_encounter_rate" : 0.0,
+                "night_encounter_rate" : 0.0
+            },
+            {
+                "name" : "Kricketot",
+                "location" : "Grass",
+                "level_min" : 10,
+                "level_max" : 10,
+                "morning_encounter_rate" : 0.0,
+                "day_encounter_rate" : 0.0,
+                "night_encounter_rate" : 0.1
+            },
+            {
+                "name" : "Budew",
+                "location" : "Grass",
+                "level_min" : 10,
+                "level_max" : 12,
+                "morning_encounter_rate" : 0.3,
+                "day_encounter_rate" : 0.4,
+                "night_encounter_rate" : 0.3
+            },
+            {
+                "name" : "Hoothoot",
+                "location" : "Grass",
+                "level_min" : 12,
+                "level_max" : 12,
+                "morning_encounter_rate" : 0.0,
+                "day_encounter_rate" : 0.0,
+                "night_encounter_rate" : 0.1
+            }
+        ]
+    },
+    {
+        "route_name" : "Route 205 (east)",
+        "route_number" : 205,
+        "available_pokemon" : [
+            {
+                "name" : "Hoothoot",
+                "location" : "Grass",
+                "level_min" : 12,
+                "level_max" : 12,
+                "morning_encounter_rate" : 0.0,
+                "day_encounter_rate" : 0.0,
+                "night_encounter_rate" : 0.1
+            },
+            {
+                "name" : "Wurmple",
+                "location" : "Grass",
+                "level_min" : 13,
+                "level_max" : 13,
+                "morning_encounter_rate" : 0.1,
+                "day_encounter_rate" : 0.1,
+                "night_encounter_rate" : 0.0
+            },
+            {
+                "name" : "Silcoon",
+                "location" : "Grass",
+                "level_min" : 14,
+                "level_max" : 14,
+                "morning_encounter_rate" : 0.1,
+                "day_encounter_rate" : 0.1,
+                "night_encounter_rate" : 0.1
+            },
+            {
+                "name" : "Beautifly",
+                "location" : "Grass",
+                "level_min" : 15,
+                "level_max" : 15,
+                "morning_encounter_rate" : 0.01,
+                "day_encounter_rate" : 0.01,
+                "night_encounter_rate" : 0.01
+            },
+            {
+                "name" : "Cascoon",
+                "location" : "Grass",
+                "level_min" : 14,
+                "level_max" : 14,
+                "morning_encounter_rate" : 0.1,
+                "day_encounter_rate" : 0.1,
+                "night_encounter_rate" : 0.1
+            },
+            {
+                "name" : "Dustox",
+                "location" : "Grass",
+                "level_min" : 15,
+                "level_max" : 15,
+                "morning_encounter_rate" : 0.01,
+                "day_encounter_rate" : 0.01,
+                "night_encounter_rate" : 0.01
+            },
+            {
+                "name" : "Bidoof",
+                "location" : "Grass",
+                "level_min" : 12,
+                "level_max" : 14,
+                "morning_encounter_rate" : 0.3,
+                "day_encounter_rate" : 0.3,
+                "night_encounter_rate" : 0.3
+            },
+            {
+                "name" : "Kricketot",
+                "location" : "Grass",
+                "level_min" : 12,
+                "level_max" : 12,
+                "morning_encounter_rate" : 0.1,
+                "day_encounter_rate" : 0.0,
+                "night_encounter_rate" : 0.0
+            },
+            {
+                "name" : "Kricketot",
+                "location" : "Grass",
+                "level_min" : 13,
+                "level_max" : 13,
+                "morning_encounter_rate" : 0.0,
+                "day_encounter_rate" : 0.0,
+                "night_encounter_rate" : 0.1
+            },
+            {
+                "name" : "Budew",
+                "location" : "Grass",
+                "level_min" : 12,
+                "level_max" : 14,
+                "morning_encounter_rate" : 0.28,
+                "day_encounter_rate" : 0.38,
+                "night_encounter_rate" : 0.28
+            }
+        ]
+    },
+    {
+        "route_name" : "Old Chateau",
+        "route_number" : 206,
+        "available_pokemon" : [
+            {
+                "name" : "Ghastly",
+                "location" : "Main, Dining Hall, 2F",
+                "level_min" : 14,
+                "level_max" : 17,
+                "morning_encounter_rate" : 1.0,
+                "day_encounter_rate" : 1.0,
+                "night_encounter_rate" : 1.0
+            }
+        ]
+    },
+    {
+        "route_name" : "Route 206",
+        "route_number" : 206,
+        "available_pokemon" : [
+            {
+                "name" : "Zubat",
+                "location" : "Grass",
+                "level_min" : 17,
+                "level_max" : 17,
+                "morning_encounter_rate" : 0.0,
+                "day_encounter_rate" : 0.0,
+                "night_encounter_rate" : 0.1
+            },
+            {
+                "name" : "Machop",
+                "location" : "Grass",
+                "level_min" : 17,
+                "level_max" : 19,
+                "morning_encounter_rate" : 0.2,
+                "day_encounter_rate" : 0.2,
+                "night_encounter_rate" : 0.2
+            },
+            {
+                "name" : "Geodude",
+                "location" : "Grass",
+                "level_min" : 16,
+                "level_max" : 18,
+                "morning_encounter_rate" : 0.3,
+                "day_encounter_rate" : 0.3,
+                "night_encounter_rate" : 0.3
+            },
+            {
+                "name" : "Ponyta",
+                "location" : "Grass",
+                "level_min" : 16,
+                "level_max" : 16,
+                "morning_encounter_rate" : 0.2,
+                "day_encounter_rate" : 0.0,
+                "night_encounter_rate" : 0.2
+            },
+            {
+                "name" : "Ponyta",
+                "location" : "Grass",
+                "level_min" : 16,
+                "level_max" : 17,
+                "morning_encounter_rate" : 0.0,
+                "day_encounter_rate" : 0.3,
+                "night_encounter_rate" : 0.0
+            },
+            {
+                "name" : "Gligar",
+                "location" : "Grass",
+                "level_min" : 16,
+                "level_max" : 18,
+                "morning_encounter_rate" : 0.2,
+                "day_encounter_rate" : 0.2,
+                "night_encounter_rate" : 0.0
+            },
+            {
+                "name" : "Gligar",
+                "location" : "Grass",
+                "level_min" : 16,
+                "level_max" : 16,
+                "morning_encounter_rate" : 0.0,
+                "day_encounter_rate" : 0.0,
+                "night_encounter_rate" : 0.1
+            },
+            {
+                "name" : "Kricketune",
+                "location" : "Grass",
+                "level_min" : 17,
+                "level_max" : 17,
+                "morning_encounter_rate" : 0.1,
+                "day_encounter_rate" : 0.0,
+                "night_encounter_rate" : 0.0
+            },
+            {
+                "name" : "Kricketune",
+                "location" : "Grass",
+                "level_min" : 18,
+                "level_max" : 18,
+                "morning_encounter_rate" : 0.0,
+                "day_encounter_rate" : 0.0,
+                "night_encounter_rate" : 0.1
+            }
+        ]
+    },
+    {
+        "route_name" : "Wayward Cave",
+        "route_number" : 206,
+        "available_pokemon" : [
+            {
+                "name" : "Zubat",
+                "location" : "Cave",
+                "level_min" : 17,
+                "level_max" : 19,
+                "morning_encounter_rate" : 0.15,
+                "day_encounter_rate" : 0.15,    
+                "night_encounter_rate" : 0.15   
+            },
+            {
+                "name" : "Geodude",
+                "location" : "Cave",
+                "level_min" : 17,
+                "level_max" : 20,
+                "morning_encounter_rate" : 0.4, 
+                "day_encounter_rate" : 0.4,     
+                "night_encounter_rate" : 0.4    
+            },
+            {
+                "name" : "Onix",
+                "location" : "Cave",
+                "level_min" : 18,
+                "level_max" : 20,
+                "morning_encounter_rate" : 0.15,
+                "day_encounter_rate" : 0.15,
+                "night_encounter_rate" : 0.15
+            },
+            {
+                "name" : "Bronzor",
+                "location" : "Cave",
+                "level_min" : 18,
+                "level_max" : 20,
+                "morning_encounter_rate" : 0.3,
+                "day_encounter_rate" : 0.3,
+                "night_encounter_rate" : 0.3
+            }
+        ]
+    },
+    {
+        "route_name" : "Wayward Cave (Hidden Area)",
+        "route_number" : 206,
+        "available_pokemon" : [
+            {
+                "name" : "Zubat",
+                "location" : "Cave",
+                "level_min" : 19,
+                "level_max" : 19,
+                "morning_encounter_rate" : 0.1,
+                "day_encounter_rate" : 0.1,
+                "night_encounter_rate" : 0.1
+            },
+            {
+                "name" : "Geodude",
+                "location" : "Cave",
+                "level_min" : 18,
+                "level_max" : 20,
+                "morning_encounter_rate" : 0.25,
+                "day_encounter_rate" : 0.25,
+                "night_encounter_rate" : 0.25
+            },
+            {
+                "name" : "Onix",
+                "location" : "Cave",
+                "level_min" : 18,
+                "level_max" : 20,
+                "morning_encounter_rate" : 0.15,
+                "day_encounter_rate" : 0.15,
+                "night_encounter_rate" : 0.15
+            },
+            {
+                "name" : "Bronzor",
+                "location" : "Cave",
+                "level_min" : 18,
+                "level_max" : 20,
+                "morning_encounter_rate" : 0.3,
+                "day_encounter_rate" : 0.3,
+                "night_encounter_rate" : 0.3
+            },
+            {
+                "name" : "Gible",
+                "location" : "Cave",
+                "level_min" : 17,
+                "level_max" : 20,
+                "morning_encounter_rate" : 0.2,
+                "day_encounter_rate" : 0.2,
+                "night_encounter_rate" : 0.2
+            }
+        ]
+    },
+    {
+        "route_name" : "Route 207",
+        "route_number" : 207,
+        "available_pokemon" : [
+            {
+                "name" : "Zubat",
+                "location" : "Grass",
+                "level_min" : 5,
+                "level_max" : 5,
+                "morning_encounter_rate" : 0.0,
+                "day_encounter_rate" : 0.0,
+                "night_encounter_rate" : 0.1
+            },
+            {
+                "name" : "Machop",
+                "location" : "Grass",
+                "level_min" : 6,
+                "level_max" : 8,
+                "morning_encounter_rate" : 0.35,
+                "day_encounter_rate" : 0.0,
+                "night_encounter_rate" : 0.35
+            },
+            {
+                "name" : "Machop",
+                "location" : "Grass",
+                "level_min" : 5,
+                "level_max" : 8,
+                "morning_encounter_rate" : 0.0,
+                "day_encounter_rate" : 0.45,
+                "night_encounter_rate" : 0.0
+            },
+            {
+                "name" : "Geodude",
+                "location" : "Grass",
+                "level_min" : 5,
+                "level_max" : 7,
+                "morning_encounter_rate" : 0.3,
+                "day_encounter_rate" : 0.3,
+                "night_encounter_rate" : 0.3
+            },
+            {
+                "name" : "Ponyta",
+                "location" : "Grass",
+                "level_min" : 5,
+                "level_max" : 7,
+                "morning_encounter_rate" : 0.25,
+                "day_encounter_rate" : 0.25,
+                "night_encounter_rate" : 0.0
+            },
+            {
+                "name" : "Ponyta",
+                "location" : "Grass",
+                "level_min" : 5,
+                "level_max" : 7,
+                "morning_encounter_rate" : 0.0,
+                "day_encounter_rate" : 0.0,
+                "night_encounter_rate" : 0.15
+            },
+            {
+                "name" : "Kricketot",
+                "location" : "Grass",
+                "level_min" : 5,
+                "level_max" : 5,
+                "morning_encounter_rate" : 0.1,
+                "day_encounter_rate" : 0.0,
+                "night_encounter_rate" : 0.0
+            },
+            {
+                "name" : "Kricketot",
+                "location" : "Grass",
+                "level_min" : 6,
+                "level_max" : 6,
+                "morning_encounter_rate" : 0.0,
+                "day_encounter_rate" : 0.0,
+                "night_encounter_rate" : 0.1
+            }
+        ]
+    },
+    {
+        "route_name" : "Mt. Coronet (south)",
+        "route_number" : 207,
+        "available_pokemon" : [
+            {
+                "name" : "Clefairy",
+                "location" : "Cave",
+                "level_min" : 17,
+                "level_max" : 17,
+                "morning_encounter_rate" : 0.1,
+                "day_encounter_rate" : 0.0,
+                "night_encounter_rate" : 0.1
+            },
+            {
+                "name" : "Zubat",
+                "location" : "Cave",
+                "level_min" : 19,
+                "level_max" : 19,
+                "morning_encounter_rate" : 0.05,
+                "day_encounter_rate" : 0.05,
+                "night_encounter_rate" : 0.0
+            },
+            {
+                "name" : "Zubat",
+                "location" : "Cave",
+                "level_min" : 18,
+                "level_max" : 19,
+                "morning_encounter_rate" : 0.0,
+                "day_encounter_rate" : 0.0,
+                "night_encounter_rate" : 0.15
+            },
+            {
+                "name" : "Machop",
+                "location" : "Cave",
+                "level_min" : 20,
+                "level_max" : 20,
+                "morning_encounter_rate" : 0.1,
+                "day_encounter_rate" : 0.1,
+                "night_encounter_rate" : 0.1
+            },
+            {
+                "name" : "Geodude",
+                "location" : "Cave",
+                "level_min" : 19,
+                "level_max" : 19,
+                "morning_encounter_rate" : 0.2,
+                "day_encounter_rate" : 0.0,
+                "night_encounter_rate" : 0.2
+            },
+            {
+                "name" : "Geodude",
+                "location" : "Cave",
+                "level_min" : 17,
+                "level_max" : 19,
+                "morning_encounter_rate" : 0.0,
+                "day_encounter_rate" : 0.3,
+                "night_encounter_rate" : 0.0
+            },
+            {
+                "name" : "Nosepass",
+                "location" : "Cave",
+                "level_min" : 18,
+                "level_max" : 18,
+                "morning_encounter_rate" : 0.05,
+                "day_encounter_rate" : 0.05,
+                "night_encounter_rate" : 0.05
+            },
+            {
+                "name" : "Meditite",
+                "location" : "Cave",
+                "level_min" : 18,
+                "level_max" : 20,
+                "morning_encounter_rate" : 0.2,
+                "day_encounter_rate" : 0.2,
+                "night_encounter_rate" : 0.0
+            },
+            {
+                "name" : "Meditite",
+                "location" : "Cave",
+                "level_min" : 20,
+                "level_max" : 20,
+                "morning_encounter_rate" : 0.0,
+                "day_encounter_rate" : 0.0,
+                "night_encounter_rate" : 0.1
+            },
+            {
+                "name" : "Chingling",
+                "location" : "Cave",
+                "level_min" : 17,
+                "level_max" : 19,
+                "morning_encounter_rate" : 0.1,
+                "day_encounter_rate" : 0.1,
+                "night_encounter_rate" : 0.1
+            },
+            {
+                "name" : "Bronzor",
+                "location" : "Cave",
+                "level_min" : 18,
+                "level_max" : 18,
+                "morning_encounter_rate" : 0.2,
+                "day_encounter_rate" : 0.2,
+                "night_encounter_rate" : 0.2
+            }
+        ]
+    },
+    {
+        "route_name" : "Route 208",
+        "route_number" : 208,
+        "available_pokemon" : [
+            {
+                "name" : "Zubat",
+                "location" : "Grass",
+                "level_min" : 19,
+                "level_max" : 19,
+                "morning_encounter_rate" : 0.0,
+                "day_encounter_rate" : 0.0,
+                "night_encounter_rate" : 0.1
+            },
+            {
+                "name" : "Ralts",
+                "location" : "Grass",
+                "level_min" : 17,
+                "level_max" : 18,
+                "morning_encounter_rate" : 0.15,
+                "day_encounter_rate" : 0.15,
+                "night_encounter_rate" : 0.15
+            },
+            {
+                "name" : "Roselia",
+                "location" : "Grass",
+                "level_min" : 19,
+                "level_max" : 20,
+                "morning_encounter_rate" : 0.15,
+                "day_encounter_rate" : 0.15,
+                "night_encounter_rate" : 0.15
+            },
+            {
+                "name" : "Bidoof",
+                "location" : "Grass",
+                "level_min" : 18,
+                "level_max" : 18,
+                "morning_encounter_rate" : 0.2,
+                "day_encounter_rate" : 0.2,
+                "night_encounter_rate" : 0.2
+            },
+            {
+                "name" : "Bibarel",
+                "location" : "Grass",
+                "level_min" : 18,
+                "level_max" : 20,
+                "morning_encounter_rate" : 0.2,
+                "day_encounter_rate" : 0.2,
+                "night_encounter_rate" : 0.2
+            },
+            {
+                "name" : "Budew",
+                "location" : "Grass",
+                "level_min" : 18,
+                "level_max" : 19,
+                "morning_encounter_rate" : 0.3,
+                "day_encounter_rate" : 0.3,
+                "night_encounter_rate" : 0.0
+            },
+            {
+                "name" : "Budew",
+                "location" : "Grass",
+                "level_min" : 18,
+                "level_max" : 18,
+                "morning_encounter_rate" : 0.0,
+                "day_encounter_rate" : 0.0,
+                "night_encounter_rate" : 0.2
+            }
+        ]
+    },
+    {
+        "route_name" : "Route 209",
+        "route_number" : 209,
+        "available_pokemon" : [
+            {
+                "name" : "Zubat",
+                "location" : "Grass",
+                "level_min" : 19,
+                "level_max" : 19,
+                "morning_encounter_rate" : 0.0,
+                "day_encounter_rate" : 0.0,
+                "night_encounter_rate" : 0.1
+            },
+            {
+                "name" : "Chansey",
+                "location" : "Grass",
+                "level_min" : 17,
+                "level_max" : 19,
+                "morning_encounter_rate" : 0.05,
+                "day_encounter_rate" : 0.05,
+                "night_encounter_rate" : 0.05
+            },
+            {
+                "name" : "Ralts",
+                "location" : "Grass",
+                "level_min" : 17,
+                "level_max" : 19,
+                "morning_encounter_rate" : 0.2,
+                "day_encounter_rate" : 0.2,
+                "night_encounter_rate" : 0.0
+            },
+            {
+                "name" : "Ralts",
+                "location" : "Grass",
+                "level_min" : 18,
+                "level_max" : 19,
+                "morning_encounter_rate" : 0.0,
+                "day_encounter_rate" : 0.0,
+                "night_encounter_rate" : 0.1
+            },
+            {
+                "name" : "Roselia",
+                "location" : "Grass",
+                "level_min" : 19,
+                "level_max" : 20,
+                "morning_encounter_rate" : 0.25,
+                "day_encounter_rate" : 0.25,
+                "night_encounter_rate" : 0.25
+            },
+            {
+                "name" : "Duskull",
+                "location" : "Grass",
+                "level_min" : 17,
+                "level_max" : 17,
+                "morning_encounter_rate" : 0.0,
+                "day_encounter_rate" : 0.0,
+                "night_encounter_rate" : 0.1
+            },
+            {
+                "name" : "Staravia",
+                "location" : "Grass",
+                "level_min" : 18,
+                "level_max" : 19,
+                "morning_encounter_rate" : 0.2,
+                "day_encounter_rate" : 0.2,
+                "night_encounter_rate" : 0.0
+            },
+            {
+                "name" : "Staravia",
+                "location" : "Grass",
+                "level_min" : 18,
+                "level_max" : 18,
+                "morning_encounter_rate" : 0.0,
+                "day_encounter_rate" : 0.0,
+                "night_encounter_rate" : 0.1
+            },
+            {
+                "name" : "Bibarel",
+                "location" : "Grass",
+                "level_min" : 18,
+                "level_max" : 19,
+                "morning_encounter_rate" : 0.3,
+                "day_encounter_rate" : 0.3,
+                "night_encounter_rate" : 0.3
+            }
+        ]
+    },
+    {
+        "route_name" : "Solaceon Ruins",
+        "route_number" : 209,
+        "available_pokemon" : [
+            {
+                "name" : "Unown",
+                "location" : "Cave",
+                "level_min" : 20,
+                "level_max" : 30,
+                "morning_encounter_rate" : 1.0,
+                "day_encounter_rate" : 1.0,
+                "night_encounter_rate" : 1.0
+            },
+            {
+                "name" : "Unown",
+                "location" : "Cave",
+                "level_min" : 20,
+                "level_max" : 30,
+                "morning_encounter_rate" : 1.0,
+                "day_encounter_rate" : 1.0,
+                "night_encounter_rate" : 1.0
+            },
+            {
+                "name" : "Unown",
+                "location" : "Cave",
+                "level_min" : 20,
+                "level_max" : 30,
+                "morning_encounter_rate" : 1.0,
+                "day_encounter_rate" : 1.0,
+                "night_encounter_rate" : 1.0
+            },
+            {
+                "name" : "Unown",
+                "location" : "Cave",
+                "level_min" : 20,
+                "level_max" : 30,
+                "morning_encounter_rate" : 1.0,
+                "day_encounter_rate" : 1.0,
+                "night_encounter_rate" : 1.0
+            },
+            {
+                "name" : "Unown",
+                "location" : "Cave",
+                "level_min" : 20,
+                "level_max" : 30,
+                "morning_encounter_rate" : 1.0,
+                "day_encounter_rate" : 1.0,
+                "night_encounter_rate" : 1.0
+            },
+            {
+                "name" : "Unown",
+                "location" : "Cave",
+                "level_min" : 20,
+                "level_max" : 30,
+                "morning_encounter_rate" : 1.0,
+                "day_encounter_rate" : 1.0,
+                "night_encounter_rate" : 1.0
+            },
+            {
+                "name" : "Unown",
+                "location" : "Cave",
+                "level_min" : 20,
+                "level_max" : 30,
+                "morning_encounter_rate" : 0.05,
+                "day_encounter_rate" : 0.05,
+                "night_encounter_rate" : 0.05
+            },
+            {
+                "name" : "Unown",
+                "location" : "Cave",
+                "level_min" : 20,
+                "level_max" : 30,
+                "morning_encounter_rate" : 0.05,
+                "day_encounter_rate" : 0.05,
+                "night_encounter_rate" : 0.05
+            },
+            {
+                "name" : "Unown",
+                "location" : "Cave",
+                "level_min" : 20,
+                "level_max" : 30,
+                "morning_encounter_rate" : 0.05,
+                "day_encounter_rate" : 0.05,
+                "night_encounter_rate" : 0.05
+            },
+            {
+                "name" : "Unown",
+                "location" : "Cave",
+                "level_min" : 20,
+                "level_max" : 30,
+                "morning_encounter_rate" : 0.05,
+                "day_encounter_rate" : 0.05,
+                "night_encounter_rate" : 0.05
+            },
+            {
+                "name" : "Unown",
+                "location" : "Cave",
+                "level_min" : 20,
+                "level_max" : 30,
+                "morning_encounter_rate" : 0.05,
+                "day_encounter_rate" : 0.05,
+                "night_encounter_rate" : 0.05
+            },
+            {
+                "name" : "Unown",
+                "location" : "Cave",
+                "level_min" : 20,
+                "level_max" : 30,
+                "morning_encounter_rate" : 0.05,
+                "day_encounter_rate" : 0.05,
+                "night_encounter_rate" : 0.05
+            },
+            {
+                "name" : "Unown",
+                "location" : "Cave",
+                "level_min" : 20,
+                "level_max" : 30,
+                "morning_encounter_rate" : 0.05,
+                "day_encounter_rate" : 0.05,
+                "night_encounter_rate" : 0.05
+            },
+            {
+                "name" : "Unown",
+                "location" : "Cave",
+                "level_min" : 20,
+                "level_max" : 30,
+                "morning_encounter_rate" : 0.05,
+                "day_encounter_rate" : 0.05,
+                "night_encounter_rate" : 0.05
+            },
+            {
+                "name" : "Unown",
+                "location" : "Cave",
+                "level_min" : 20,
+                "level_max" : 30,
+                "morning_encounter_rate" : 0.05,
+                "day_encounter_rate" : 0.05,
+                "night_encounter_rate" : 0.05
+            },
+            {
+                "name" : "Unown",
+                "location" : "Cave",
+                "level_min" : 20,
+                "level_max" : 30,
+                "morning_encounter_rate" : 0.05,
+                "day_encounter_rate" : 0.05,
+                "night_encounter_rate" : 0.05
+            },
+            {
+                "name" : "Unown",
+                "location" : "Cave",
+                "level_min" : 20,
+                "level_max" : 30,
+                "morning_encounter_rate" : 0.05,
+                "day_encounter_rate" : 0.05,
+                "night_encounter_rate" : 0.05
+            },
+            {
+                "name" : "Unown",
+                "location" : "Cave",
+                "level_min" : 20,
+                "level_max" : 30,
+                "morning_encounter_rate" : 0.05,
+                "day_encounter_rate" : 0.05,
+                "night_encounter_rate" : 0.05
+            },
+            {
+                "name" : "Unown",
+                "location" : "Cave",
+                "level_min" : 20,
+                "level_max" : 30,
+                "morning_encounter_rate" : 0.05,
+                "day_encounter_rate" : 0.05,
+                "night_encounter_rate" : 0.05
+            },
+            {
+                "name" : "Unown",
+                "location" : "Cave",
+                "level_min" : 20,
+                "level_max" : 30,
+                "morning_encounter_rate" : 0.05,
+                "day_encounter_rate" : 0.05,
+                "night_encounter_rate" : 0.05
+            },
+            {
+                "name" : "Unown",
+                "location" : "Cave",
+                "level_min" : 20,
+                "level_max" : 30,
+                "morning_encounter_rate" : 0.05,
+                "day_encounter_rate" : 0.05,
+                "night_encounter_rate" : 0.05
+            },
+            {
+                "name" : "Unown",
+                "location" : "Cave",
+                "level_min" : 20,
+                "level_max" : 30,
+                "morning_encounter_rate" : 0.05,
+                "day_encounter_rate" : 0.05,
+                "night_encounter_rate" : 0.05
+            },
+            {
+                "name" : "Unown",
+                "location" : "Cave",
+                "level_min" : 20,
+                "level_max" : 30,
+                "morning_encounter_rate" : 0.05,
+                "day_encounter_rate" : 0.05,
+                "night_encounter_rate" : 0.05
+            },
+            {
+                "name" : "Unown",
+                "location" : "Cave",
+                "level_min" : 20,
+                "level_max" : 30,
+                "morning_encounter_rate" : 0.05,
+                "day_encounter_rate" : 0.05,
+                "night_encounter_rate" : 0.05
+            },
+            {
+                "name" : "Unown",
+                "location" : "Cave",
+                "level_min" : 20,
+                "level_max" : 30,
+                "morning_encounter_rate" : 0.05,
+                "day_encounter_rate" : 0.05,
+                "night_encounter_rate" : 0.05
+            },
+            {
+                "name" : "Unown",
+                "location" : "Cave",
+                "level_min" : 20,
+                "level_max" : 30,
+                "morning_encounter_rate" : 0.05,
+                "day_encounter_rate" : 0.05,
+                "night_encounter_rate" : 0.05
+            },
+            {
+                "name" : "Unown",
+                "location" : "Cave",
+                "level_min" : 20,
+                "level_max" : 30,
+                "morning_encounter_rate" : 0.5,
+                "day_encounter_rate" : 0.5,
+                "night_encounter_rate" : 0.5
+            },
+            {
+                "name" : "Unown",
+                "location" : "Cave",
+                "level_min" : 20,
+                "level_max" : 30,
+                "morning_encounter_rate" : 0.5,
+                "day_encounter_rate" : 0.5,
+                "night_encounter_rate" : 0.5
+            }
+        ]
+    },
+    {
+        "route_name" : "Lost Tower (1F-2F)",
+        "route_number" : 210,
+        "available_pokemon" : [
+            {
+                "name" : "Zubat",
+                "location" : "Walking",
+                "level_min" : 17,
+                "level_max" : 19,
+                "morning_encounter_rate" : 0.35,
+                "day_encounter_rate" : 0.35,
+                "night_encounter_rate" : 0.35
+            },
+            {
+                "name" : "Gastly",
+                "location" : "Walking",
+                "level_min" : 17,
+                "level_max" : 20,
+                "morning_encounter_rate" : 0.65,
+                "day_encounter_rate" : 0.65,
+                "night_encounter_rate" : 0.0
+            },
+            {
+                "name" : "Gastly",
+                "location" : "Walking",
+                "level_min" : 17,
+                "level_max" : 20,
+                "morning_encounter_rate" : 0.0,
+                "day_encounter_rate" : 0.0,
+                "night_encounter_rate" : 0.45
+            },
+            {
+                "name" : "Duskull",
+                "location" : "Walking",
+                "level_min" : 17,
+                "level_max" : 19,
+                "morning_encounter_rate" : 0.0,
+                "day_encounter_rate" : 0.0,
+                "night_encounter_rate" : 0.2
+            }
+        ]
+    },
+    {
+        "route_name" : "Lost Tower (3F)",
+        "route_number" : 210,
+        "available_pokemon" : [
+            {
+                "name" : "Zubat",
+                "location" : "Walking",
+                "level_min" : 18,
+                "level_max" : 20,
+                "morning_encounter_rate" : 0.35,
+                "day_encounter_rate" : 0.35,
+                "night_encounter_rate" : 0.35
+            },
+            {
+                "name" : "Golbat",
+                "location" : "Walking",
+                "level_min" : 21,
+                "level_max" : 21,
+                "morning_encounter_rate" : 0.01,
+                "day_encounter_rate" : 0.01,
+                "night_encounter_rate" : 0.01
+            },
+            {
+                "name" : "Gastly",
+                "location" : "Walking",
+                "level_min" : 18,
+                "level_max" : 21,
+                "morning_encounter_rate" : 0.64,
+                "day_encounter_rate" : 0.64,
+                "night_encounter_rate" : 0.0
+            },
+            {
+                "name" : "Gastly",
+                "location" : "Walking",
+                "level_min" : 18,
+                "level_max" : 21,
+                "morning_encounter_rate" : 0.0,
+                "day_encounter_rate" : 0.0,
+                "night_encounter_rate" : 0.44
+            },
+            {
+                "name" : "Duskull",
+                "location" : "Walking",
+                "level_min" : 18,
+                "level_max" : 20,
+                "morning_encounter_rate" : 0.0,
+                "day_encounter_rate" : 0.0,
+                "night_encounter_rate" : 0.2
+            }
+        ]
+    },
+    {
+        "route_name" : "Lost Tower (4F)",
+        "route_number" : 210,
+        "available_pokemon" : [
+            {
+                "name" : "Zubat",
+                "location" : "Walking",
+                "level_min" : 18,
+                "level_max" : 20,
+                "morning_encounter_rate" : 0.35,
+                "day_encounter_rate" : 0.35,
+                "night_encounter_rate" : 0.35
+            },
+            {
+                "name" : "Golbat",
+                "location" : "Walking",
+                "level_min" : 21,
+                "level_max" : 21,
+                "morning_encounter_rate" : 0.05,
+                "day_encounter_rate" : 0.05,
+                "night_encounter_rate" : 0.05
+            },
+            {
+                "name" : "Gastly",
+                "location" : "Walking",
+                "level_min" : 18,
+                "level_max" : 21,
+                "morning_encounter_rate" : 0.6,
+                "day_encounter_rate" : 0.6,
+                "night_encounter_rate" : 0.0
+            },
+            {
+                "name" : "Gastly",
+                "location" : "Walking",
+                "level_min" : 18,
+                "level_max" : 21,
+                "morning_encounter_rate" : 0.0,
+                "day_encounter_rate" : 0.0,
+                "night_encounter_rate" : 0.4
+            },
+            {
+                "name" : "Duskull",
+                "location" : "Walking",
+                "level_min" : 18,
+                "level_max" : 20,
+                "morning_encounter_rate" : 0.0,
+                "day_encounter_rate" : 0.0,
+                "night_encounter_rate" : 0.2
+            }
+        ]
+    },
+    {
+        "route_name" : "Lost Tower (5F)",
+        "route_number" : 210,
+        "available_pokemon" : [
+            {
+                "name" : "Zubat",
+                "location" : "Walking",
+                "level_min" : 19,
+                "level_max" : 21,
+                "morning_encounter_rate" : 0.35,
+                "day_encounter_rate" : 0.35,
+                "night_encounter_rate" : 0.35
+            },
+            {
+                "name" : "Golbat",
+                "location" : "Walking",
+                "level_min" : 22,
+                "level_max" : 22,
+                "morning_encounter_rate" : 0.1,
+                "day_encounter_rate" : 0.1,
+                "night_encounter_rate" : 0.1
+            },
+            {
+                "name" : "Gastly",
+                "location" : "Walking",
+                "level_min" : 19,
+                "level_max" : 22,
+                "morning_encounter_rate" : 0.55,
+                "day_encounter_rate" : 0.55,
+                "night_encounter_rate" : 0.0
+            },
+            {
+                "name" : "Gastly",
+                "location" : "Walking",
+                "level_min" : 19,
+                "level_max" : 22,
+                "morning_encounter_rate" : 0.0,
+                "day_encounter_rate" : 0.0,
+                "night_encounter_rate" : 0.35
+            },
+            {
+                "name" : "Duskull",
+                "location" : "Walking",
+                "level_min" : 19,
+                "level_max" : 21,
+                "morning_encounter_rate" : 0.0,
+                "day_encounter_rate" : 0.0,
+                "night_encounter_rate" : 0.2
+            }
+        ]
+    },
+    {
+        "route_name" : "Route 210 (south)",
+        "route_number" : 210,
+        "available_pokemon" : [
+            {
+                "name" : "Geodude",
+                "location" : "Grass",
+                "level_min" : 18,
+                "level_max" : 18,
+                "morning_encounter_rate" : 0.2,
+                "day_encounter_rate" : 0.2,
+                "night_encounter_rate" : 0.2
+            },
+            {
+                "name" : "Ponyta",
+                "location" : "Grass",
+                "level_min" : 19,
+                "level_max" : 21,
+                "morning_encounter_rate" : 0.25,
+                "day_encounter_rate" : 0.35,
+                "night_encounter_rate" : 0.0
+            },
+            {
+                "name" : "Ponyta",
+                "location" : "Grass",
+                "level_min" : 19,
+                "level_max" : 21,
+                "morning_encounter_rate" : 0.0,
+                "day_encounter_rate" : 0.0,
+                "night_encounter_rate" : 0.15
+            },
+            {
+                "name" : "Chansey",
+                "location" : "Grass",
+                "level_min" : 19,
+                "level_max" : 21,
+                "morning_encounter_rate" : 0.05,
+                "day_encounter_rate" : 0.05,
+                "night_encounter_rate" : 0.05
+            },
+            {
+                "name" : "Scyther",
+                "location" : "Grass",
+                "level_min" : 19,
+                "level_max" : 21,
+                "morning_encounter_rate" : 0.15,
+                "day_encounter_rate" : 0.0,
+                "night_encounter_rate" : 0.0
+            },
+            {
+                "name" : "Scyther",
+                "location" : "Grass",
+                "level_min" : 19,
+                "level_max" : 19,
+                "morning_encounter_rate" : 0.0,
+                "day_encounter_rate" : 0.05,
+                "night_encounter_rate" : 0.05
+            },
+            {
+                "name" : "Hoothoot",
+                "location" : "Grass",
+                "level_min" : 20,
+                "level_max" : 20,
+                "morning_encounter_rate" : 0.0,
+                "day_encounter_rate" : 0.0,
+                "night_encounter_rate" : 0.1
+            },
+            {
+                "name" : "Noctowl",
+                "location" : "Grass",
+                "level_min" : 21,
+                "level_max" : 21,
+                "morning_encounter_rate" : 0.0,
+                "day_encounter_rate" : 0.0,
+                "night_encounter_rate" : 0.1
+            },
+            {
+                "name" : "Roselia",
+                "location" : "Grass",
+                "level_min" : 20,
+                "level_max" : 21,
+                "morning_encounter_rate" : 0.15,
+                "day_encounter_rate" : 0.15,
+                "night_encounter_rate" : 0.15
+            },
+            {
+                "name" : "Staravia",
+                "location" : "Grass",
+                "level_min" : 19,
+                "level_max" : 19,
+                "morning_encounter_rate" : 0.2,
+                "day_encounter_rate" : 0.2,
+                "night_encounter_rate" : 0.2
+            }
+        ]
+    },
+    {
+        "route_name" : "Route 211",
+        "route_number" : 2,
+        "available_pokemon" : [
+            {
+                "name" : "Abra",
+                "location" : "Grass",
+                "level_min" : 19,
+                "level_max" : 19,
+                "morning_encounter_rate" : 0.1,
+                "day_encounter_rate" : 0.1,
+                "night_encounter_rate" : 0.1
+            },
+            {
+                "name" : "Kadabra",
+                "location" : "Grass",
+                "level_min" : 21,
+                "level_max" : 22,
+                "morning_encounter_rate" : 0.1,
+                "day_encounter_rate" : 0.1,
+                "night_encounter_rate" : 0.1
+            },
+            {
+                "name" : "Lickitung",
+                "location" : "Grass",
+                "level_min" : 20,
+                "level_max" : 20,
+                "morning_encounter_rate" : 0.1,
+                "day_encounter_rate" : 0.1,
+                "night_encounter_rate" : 0.1
+            },
+            {
+                "name" : "Scyther",
+                "location" : "Grass",
+                "level_min" : 20,
+                "level_max" : 22,
+                "morning_encounter_rate" : 0.15,
+                "day_encounter_rate" : 0.0,
+                "night_encounter_rate" : 0.0
+            },
+            {
+                "name" : "Scyther",
+                "location" : "Grass",
+                "level_min" : 20,
+                "level_max" : 20,
+                "morning_encounter_rate" : 0.0,
+                "day_encounter_rate" : 0.05,
+                "night_encounter_rate" : 0.05
+            },
+            {
+                "name" : "Marill",
+                "location" : "Grass",
+                "level_min" : 20,
+                "level_max" : 22,
+                "morning_encounter_rate" : 0.25,
+                "day_encounter_rate" : 0.25,
+                "night_encounter_rate" : 0.0
+            },
+            {
+                "name" : "Marill",
+                "location" : "Grass",
+                "level_min" : 20,
+                "level_max" : 22,
+                "morning_encounter_rate" : 0.0,
+                "day_encounter_rate" : 0.0,
+                "night_encounter_rate" : 0.45
+            },
+            {
+                "name" : "Staravia",
+                "location" : "Grass",
+                "level_min" : 19,
+                "level_max" : 21,
+                "morning_encounter_rate" : 0.3,
+                "day_encounter_rate" : 0.0,
+                "night_encounter_rate" : 0.0
+            },
+            {
+                "name" : "Staravia",
+                "location" : "Grass",
+                "level_min" : 19,
+                "level_max" : 22,
+                "morning_encounter_rate" : 0.0,
+                "day_encounter_rate" : 0.4,
+                "night_encounter_rate" : 0.0
+            },
+            {
+                "name" : "Staravia",
+                "location" : "Grass",
+                "level_min" : 19,
+                "level_max" : 19,
+                "morning_encounter_rate" : 0.0,
+                "day_encounter_rate" : 0.0,
+                "night_encounter_rate" : 0.2
+            }
+        ]
+    },
+    {
+        "route_name" : "Route 212",
+        "route_number" : 212
+    },
+    {
+        "route_name" : "Route 213",
+        "route_number" : 213,
+        "available_pokemon" : [
+            {
+                "name" : "Wingull",
+                "location" : "Grass",
+                "level_min" : 24,
+                "level_max" : 26,
+                "morning_encounter_rate" : 0.2,
+                "day_encounter_rate" : 0.2,
+                "night_encounter_rate" : 0.2
+            },
+            {
+                "name" : "Buizel",
+                "location" : "Grass",
+                "level_min" : 23,
+                "level_max" : 25,
+                "morning_encounter_rate" : 0.25,
+                "day_encounter_rate" : 0.25,
+                "night_encounter_rate" : 0.35
+            },
+            {
+                "name" : "Shellos",
+                "location" : "Grass",
+                "level_min" : 24,
+                "level_max" : 26,
+                "morning_encounter_rate" : 0.35,
+                "day_encounter_rate" : 0.35,
+                "night_encounter_rate" : 0.0
+            },
+            {
+                "name" : "Shellos",
+                "location" : "Grass",
+                "level_min" : 23,
+                "level_max" : 26,
+                "morning_encounter_rate" : 0.0,
+                "day_encounter_rate" : 0.0,
+                "night_encounter_rate" : 0.45
+            },
+            {
+                "name" : "Chatot",
+                "location" : "Grass",
+                "level_min" : 23,
+                "level_max" : 25,
+                "morning_encounter_rate" : 0.2,
+                "day_encounter_rate" : 0.2,
+                "night_encounter_rate" : 0.0
+            }
+        ]
+    },
+    {
+        "route_name" : "Route 214",
+        "route_number" : 214,
+        "available_pokemon" : [
+            {
+                "name" : "Zubat",
+                "location" : "Grass",
+                "level_min" : 22,
+                "level_max" : 22,
+                "morning_encounter_rate" : 0.0,
+                "day_encounter_rate" : 0.0,
+                "night_encounter_rate" : 0.1
+            },
+            {
+                "name" : "Geodude",
+                "location" : "Grass",
+                "level_min" : 21,
+                "level_max" : 21,
+                "morning_encounter_rate" : 0.2,
+                "day_encounter_rate" : 0.2,
+                "night_encounter_rate" : 0.2
+            },
+            {
+                "name" : "Graveler",
+                "location" : "Grass",
+                "level_min" : 22,
+                "level_max" : 24,
+                "morning_encounter_rate" : 0.35,
+                "day_encounter_rate" : 0.35,
+                "night_encounter_rate" : 0.0
+            },
+            {
+                "name" : "Graveler",
+                "location" : "Grass",
+                "level_min" : 23,
+                "level_max" : 24,
+                "morning_encounter_rate" : 0.0,
+                "day_encounter_rate" : 0.0,
+                "night_encounter_rate" : 0.25
+            },
+            {
+                "name" : "Rhyhorn",
+                "location" : "Grass",
+                "level_min" : 21,
+                "level_max" : 24,
+                "morning_encounter_rate" : 0.3,
+                "day_encounter_rate" : 0.3,
+                "night_encounter_rate" : 0.0
+            },
+            {
+                "name" : "Rhyhorn",
+                "location" : "Grass",
+                "level_min" : 21,
+                "level_max" : 23,
+                "morning_encounter_rate" : 0.0,
+                "day_encounter_rate" : 0.0,
+                "night_encounter_rate" : 0.2
+            },
+            {
+                "name" : "Houndour",
+                "location" : "Grass",
+                "level_min" : 23,
+                "level_max" : 24,
+                "morning_encounter_rate" : 0.15,
+                "day_encounter_rate" : 0.15,
+                "night_encounter_rate" : 0.0
+            },
+            {
+                "name" : "Houndour",
+                "location" : "Grass",
+                "level_min" : 22,
+                "level_max" : 24,
+                "morning_encounter_rate" : 0.0,
+                "day_encounter_rate" : 0.0,
+                "night_encounter_rate" : 0.25
+            }
+        ]
+    },
+    {
+        "route_name" : "Maniac Tunnel (Fewer than 10 Unown)",
+        "route_number" : 214,
+        "available_pokemon" : [
+            {
+                "name" : "Geodude",
+                "location" : "Cave",
+                "level_min" : 21,
+                "level_max" : 23,
+                "morning_encounter_rate" : 0.95,
+                "day_encounter_rate" : 0.95,
+                "night_encounter_rate" : 0.95
+            },
+            {
+                "name" : "Hippopotas",
+                "location" : "Cave",
+                "level_min" : 22,
+                "level_max" : 24,
+                "morning_encounter_rate" : 0.05,
+                "day_encounter_rate" : 0.05,
+                "night_encounter_rate" : 0.05
+            }
+        ]
+    },
+    {
+        "route_name" : "Maniac Tunnel (10-25 Unown)",
+        "route_number" : 214,
+        "available_pokemon" : [
+            {
+                "name" : "Geodude",
+                "location" : "Cave",
+                "level_min" : 22,
+                "level_max" : 24,
+                "morning_encounter_rate" : 0.90,
+                "day_encounter_rate" : 0.90,
+                "night_encounter_rate" : 0.90
+            },
+            {
+                "name" : "Hippopotas",
+                "location" : "Cave",
+                "level_min" : 23,
+                "level_max" : 25,
+                "morning_encounter_rate" : 0.10,
+                "day_encounter_rate" : 0.10,
+                "night_encounter_rate" : 0.10
+            }
+        ]
+    },
+    {
+        "route_name" : "Maniac Tunnel (26 or more Unown)",
+        "route_number" : 214,
+        "available_pokemon" : [
+            {
+                "name" : "Geodude",
+                "location" : "Cave",
+                "level_min" : 23,
+                "level_max" : 25,
+                "morning_encounter_rate" : 0.80,
+                "day_encounter_rate" : 0.80,
+                "night_encounter_rate" : 0.80
+            },
+            {
+                "name" : "Hippopotas",
+                "location" : "Cave",
+                "level_min" : 24,
+                "level_max" : 26,
+                "morning_encounter_rate" : 0.20,
+                "day_encounter_rate" : 0.20,
+                "night_encounter_rate" : 0.20
+            }
+        ]
+    },
+    {
+        "route_name" : "Valor Lakefront",
+        "route_number" : 215,
+        "available_pokemon" : [
+            {
+                "name" : "Girafarig",
+                "location" : "Grass",
+                "level_min" : 26,
+                "level_max" : 28,
+                "morning_encounter_rate" : 0.25,
+                "day_encounter_rate" : 0.25,
+                "night_encounter_rate" : 0.25
+            },
+            {
+                "name" : "Houndour",
+                "location" : "Grass",
+                "level_min" : 28,
+                "level_max" : 28,
+                "morning_encounter_rate" : 0.1,
+                "day_encounter_rate" : 0.1,
+                "night_encounter_rate" : 0.0
+            },
+            {
+                "name" : "Houndour",
+                "location" : "Grass",
+                "level_min" : 27,
+                "level_max" : 28,
+                "morning_encounter_rate" : 0.0,
+                "day_encounter_rate" : 0.0,
+                "night_encounter_rate" : 0.2
+            },
+            {
+                "name" : "Staravia",
+                "location" : "Grass",
+                "level_min" : 26,
+                "level_max" : 28,
+                "morning_encounter_rate" : 0.25,
+                "day_encounter_rate" : 0.35,
+                "night_encounter_rate" : 0.0
+            },
+            {
+                "name" : "Staravia",
+                "location" : "Grass",
+                "level_min" : 27,
+                "level_max" : 28,
+                "morning_encounter_rate" : 0.0,
+                "day_encounter_rate" : 0.0,
+                "night_encounter_rate" : 0.15
+            },
+            {
+                "name" : "Bibarel",
+                "location" : "Grass",
+                "level_min" : 25,
+                "level_max" : 27,
+                "morning_encounter_rate" : 0.3,
+                "day_encounter_rate" : 0.3,
+                "night_encounter_rate" : 0.3
+            },
+            {
+                "name" : "Kricketune",
+                "location" : "Grass",
+                "level_min" : 27,
+                "level_max" : 27,
+                "morning_encounter_rate" : 0.1,
+                "day_encounter_rate" : 0.0,
+                "night_encounter_rate" : 0.0
+            },
+            {
+                "name" : "Kricketune",
+                "location" : "Grass",
+                "level_min" : 26,
+                "level_max" : 26,
+                "morning_encounter_rate" : 0.0,
+                "day_encounter_rate" : 0.0,
+                "night_encounter_rate" : 0.1
+            }
+        ]
+    },
+    {
+        "route_name" : "Route 215",
+        "route_number" : 215,
+        "available_pokemon" : [
+            {
+                "name" : "Abra",
+                "location" : "Grass",
+                "level_min" : 19,
+                "level_max" : 19,
+                "morning_encounter_rate" : 0.1,
+                "day_encounter_rate" : 0.1,
+                "night_encounter_rate" : 0.1
+            },
+            {
+                "name" : "Kadabra",
+                "location" : "Grass",
+                "level_min" : 21,
+                "level_max" : 22,
+                "morning_encounter_rate" : 0.1,
+                "day_encounter_rate" : 0.1,
+                "night_encounter_rate" : 0.1
+            },
+            {
+                "name" : "Lickitung",
+                "location" : "Grass",
+                "level_min" : 20,
+                "level_max" : 20,
+                "morning_encounter_rate" : 0.1,
+                "day_encounter_rate" : 0.1,
+                "night_encounter_rate" : 0.1
+            },
+            {
+                "name" : "Scyther",
+                "location" : "Grass",
+                "level_min" : 20,
+                "level_max" : 22,
+                "morning_encounter_rate" : 0.15,
+                "day_encounter_rate" : 0.0,
+                "night_encounter_rate" : 0.0
+            },
+            {
+                "name" : "Scyther",
+                "location" : "Grass",
+                "level_min" : 20,
+                "level_max" : 20,
+                "morning_encounter_rate" : 0.0,
+                "day_encounter_rate" : 0.05,
+                "night_encounter_rate" : 0.05
+            },
+            {
+                "name" : "Marill",
+                "location" : "Grass",
+                "level_min" : 20,
+                "level_max" : 22,
+                "morning_encounter_rate" : 0.25,
+                "day_encounter_rate" : 0.25,
+                "night_encounter_rate" : 0.0
+            },
+            {
+                "name" : "Marill",
+                "location" : "Grass",
+                "level_min" : 20,
+                "level_max" : 22,
+                "morning_encounter_rate" : 0.0,
+                "day_encounter_rate" : 0.0,
+                "night_encounter_rate" : 0.45
+            },
+            {
+                "name" : "Staravia",
+                "location" : "Grass",
+                "level_min" : 19,
+                "level_max" : 21,
+                "morning_encounter_rate" : 0.3,
+                "day_encounter_rate" : 0.0,
+                "night_encounter_rate" : 0.0
+            },
+            {
+                "name" : "Staravia",
+                "location" : "Grass",
+                "level_min" : 19,
+                "level_max" : 21,
+                "morning_encounter_rate" : 0.0,
+                "day_encounter_rate" : 0.4,
+                "night_encounter_rate" : 0.0
+            },
+            {
+                "name" : "Staravia",
+                "location" : "Grass",
+                "level_min" : 19,
+                "level_max" : 19,
+                "morning_encounter_rate" : 0.0,
+                "day_encounter_rate" : 0.0,
+                "night_encounter_rate" : 0.2
+            }
+        ]
+    },
+    {
+        "route_name" : "Route 216",
+        "route_number" : 216
+    },
+    {
+        "route_name" : "Route 217",
+        "route_number" : 217
+    },
+    {
+        "route_name" : "Route 218",
+        "route_number" : 218
+    },
+    {
+        "route_name" : "Route 219",
+        "route_number" : 219
+    },
+    {
+        "route_name" : "Route 220",
+        "route_number" : 220
+    },
+    {
+        "route_name" : "Route 221",
+        "route_number" : 221
+    },
+    {
+        "route_name" : "Route 222",
+        "route_number" : 222
+    },
+    {
+        "route_name" : "Route 223",
+        "route_number" : 223
+    },
+    {
+        "route_name" : "Route 224",
+        "route_number" : 224
+    },
+    {
+        "route_name" : "Route 225",
+        "route_number" : 225
+    },
+    {
+        "route_name" : "Route 226",
+        "route_number" : 226
+    },
+    {
+        "route_name" : "Route 227",
+        "route_number" : 227
+    },
+    {
+        "route_name" : "Route 228",
+        "route_number" : 228
+    },
+    {
+        "route_name" : "Route 229",
+        "route_number" : 229
+    },
+    {
+        "route_name" : "Route 230",
+        "route_number" : 230
+    }
+]

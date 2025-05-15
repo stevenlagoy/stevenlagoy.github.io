@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="gfx/logo.png">
+    <link rel="stylesheet" href="styles.css">
+    <title>Pokémon Platinum Level Grind Locator</title>
+</head>
+<body>
+    <h1>Pokémon Platinum Level Grind Locator</h1>
+    <sub>Insert details about your Pokémon, and this tool will tell you the best places to grind for levels.</sub>
+    <img class="header-image" src="gfx/logo.png" alt="" height="200">
+    
+    <div class="pokemon-details-row">
+        <h2>Pokémon Details</h2>
+        <div class="pokemon-details-main">
+            <div class="pokemon-select-div">
+                <h3>My Pokémon is a:</h3>
+                <select name="pokemon_selector" id="pokemon-selector">
+                    <option value="none"></option>
+                </select>
+                <br><br>
+                <img id="pokemon-type-img1" src="gfx/no_type.png" alt="" width="150">
+                <img id="pokemon-type-img2" src="gfx/no_type.png" alt="" width="150">
+                <br>
+                <img id="pokemon-image" src="gfx/poke-thumbnails/none.png" alt="" width="200">
+            </div>
+            <div class="pokemon-stats-div">
+                <h3>My Pokémon's Stats:</h3>
+                <ul>
+                    <li><label for="stat-hp">HP:</label> <input id="stat-hp" type="number"></li>
+                    <li><label for="stat-attack">Attack:</label> <input id="stat-attack" type="number"></li>
+                    <li><label for="stat-defense">Defense:</label> <input id="stat-defense" type="number"></li>
+                    <li><label for="stat-spattack">Sp. Atk:</label> <input id="stat-spattack" type="number"></li>
+                    <li><label for="stat-spdefense">Sp. Def:</label> <input id="stat-spdefense" type="number"></li>
+                    <li><label for="stat-speed">Speed:</label> <input id="stat-speed" type="number"></li>
+                </ul>
+            </div>
+            <div class="pokemon-type-effects-div">
+                <h3>My Pokémon's Type Effects:</h3>
+                <h4>Weak To:</h4>
+                <ul id="weak-list">
+                    <li>None</li>
+                </ul>
+                <h4>Resistant To:</h4>
+                <ul id="resistant-list">
+                    <li>None</li>
+                </ul>
+                <h4>Immune To:</h4>
+                <ul id="immune-list">
+                    <li>None</li>
+                </ul>
+            </div>
+        </div>
+        <div class="pokemon-level-div">
+            <h3>My Pokémon's Level is:</h3>
+            <label id="level-value" for="level-slider">10</label>
+            <br>
+            <input type="range" min="1" max="100" value="10" class="slider" id="level-slider">
+        </div>
+    </div>
+    <div>
+        <h2>Move Details</h2>
+        <div>
+            <h3>My Pokémon's Moves are:</h3>
+
+            <div class="move-row">
+                <label for="move1-select">Move 1:</label>
+                <select name="move1_selector" id="move1-select">
+                    <option value="none"></option>
+                </select>
+                <img id="move1-img" src="gfx/no_type.png" alt="" width="120">
+                <div class="move-info" id="move1-info">
+                    <span class="move-attr-box move-acc-box">
+                        <label>Accuracy:</label> <span class="move-acc">--</span>
+                    </span>
+                    <span class="move-attr-box move-pow-box">
+                        <label>Power:</label> <span class="move-pow">--</span>
+                    </span>
+                    <span class="move-attr-box move-pp-box">
+                        <label>PP:</label> <span class="move-pp">--</span>
+                    </span>
+                </div>
+            </div>
+            <div class="move-row">
+                <label for="move2-select">Move 2:</label>
+                <select name="move2_selector" id="move2-select">
+                    <option value="none"></option>
+                </select>
+                <img id="move2-img" src="gfx/no_type.png" alt="" width="120">
+                <div class="move-info" id="move2-info">
+                    <span class="move-attr-box move-acc-box">
+                        <label>Accuracy:</label> <span class="move-acc">--</span>
+                    </span>
+                    <span class="move-attr-box move-pow-box">
+                        <label>Power:</label> <span class="move-pow">--</span>
+                    </span>
+                    <span class="move-attr-box move-pp-box">
+                        <label>PP:</label> <span class="move-pp">--</span>
+                    </span>
+                </div>
+            </div>
+
+            <div class="move-row">
+                <label for="move3-select">Move 3:</label>
+                <select name="move3_selector" id="move3-select">
+                    <option value="none"></option>
+                </select>
+                <img id="move3-img" src="gfx/no_type.png" alt="" width="120">
+                <div class="move-info" id="move3-info">
+                    <span class="move-attr-box move-acc-box">
+                        <label>Accuracy:</label> <span class="move-acc">--</span>
+                    </span>
+                    <span class="move-attr-box move-pow-box">
+                        <label>Power:</label> <span class="move-pow">--</span>
+                    </span>
+                    <span class="move-attr-box move-pp-box">
+                        <label>PP:</label> <span class="move-pp">--</span>
+                    </span>
+                </div>
+            </div>
+
+            <div class="move-row">
+                <label for="move4-select">Move 4:</label>
+                <select name="move4_selector" id="move4-select">
+                    <option value="none"></option>
+                </select>
+                <img id="move4-img" src="gfx/no_type.png" alt="" width="120">
+                <div class="move-info" id="move4-info">
+                    <span class="move-attr-box move-acc-box">
+                        <label>Accuracy:</label> <span class="move-acc">--</span>
+                    </span>
+                    <span class="move-attr-box move-pow-box">
+                        <label>Power:</label> <span class="move-pow">--</span>
+                    </span>
+                    <span class="move-attr-box move-pp-box">
+                        <label>PP:</label> <span class="move-pp">--</span>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div>
+        <h2>Other Details</h2>
+
+        <div class="time-of-day">
+            <h3>Time of Day:</h3>
+            <img src="gfx/time_graphic.png" alt="Morning (4AM-10AM), Day (10AM-8PM), Night (8PM-4AM)">
+            <div class="time-radio-group">
+                <span class="radio-pair">
+                    <input type="radio" id="morning-radio" name="time" value="morning">
+                    <label for="morning-radio">Morning</label>
+                </span>
+                <span class="radio-pair">
+                    <input type="radio" id="day-radio" name="time" value="day" checked>
+                    <label for="day-radio">Day</label>
+                </span>
+                <span class="radio-pair">
+                    <input type="radio" id="night-radio" name="time" value="night">
+                    <label for="night-radio">Night</label>
+                </span>
+            </div>
+        </div>
+
+        <div class="route-number">
+            <h3>Maximum Route Number:</h3>
+            <p>Routes with numbers greater than this will not be considered.</p>
+            <p>Unnumbered routes are given the same number as the nearest route to them in progression.</p>
+            <input type="number" id="route-num-input" value="200">
+        </div>
+
+        <div>
+            <h3>Select a Danger-Yield Ratio:</h3>
+            <p>This value represents the ratio of likely damage taken to experience yielded.</p>
+            <p>A ratio of 1 means that your Pokémon will never take damage in encounters. A ratio of 10 means that your Pokémon is very likely to be hit and even knocked out in encounters.</p>
+            <p>Routes with a calculated danger ratio higher than this value will not be considered. A value of 8 or lower is recommended.</p>
+            <div class="slider-row">
+                <label class="danger-ratio" id="ratio-value" for="ratio-slider">5</label>
+                <input type="range" value="5" min="1" max="10" step="1" id="ratio-slider" list="ratio-ticks">
+                <datalist id="ratio-ticks">
+                    <option value="1"></option>
+                    <option value="2"></option>
+                    <option value="3"></option>
+                    <option value="4"></option>
+                    <option value="5"></option>
+                    <option value="6"></option>
+                    <option value="7"></option>
+                    <option value="8"></option>
+                    <option value="9"></option>
+                    <option value="10"></option>
+                </datalist>
+            </div>
+        </div>
+    </div>
+    <br>
+    <button id="locate-button" class="big-button">Locate!</button>
+    <h4 id="warning-select-pokemon-first" class="warning-select-pokemon-first" style="display:none;">You must select a Pokémon first!</h4>
+    <br>
+    <div id="results-div" style="display:none;">
+    </div>
+
+    <script type="module" src="dist/script.js"></script>
+    <script type="module" src="dist/Pokemon.js"></script>
+    <script type="module" src="dist/Move.js"></script>
+    <script type="module" src="dist/FileLocations.js"></script>
+    <script type="module" src="dist/Route.js"></script>
+    <script type="module" src="dist/Encounter.js"></script>
+    <script type="module" src="dist/Type.js"></script>
+</body>
+</html>
