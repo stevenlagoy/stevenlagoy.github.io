@@ -261,7 +261,7 @@ document.addEventListener('DOMContentLoaded', () => {
             return;
         }
         
-        fetch(`/src/main/resources/${state}/counties/${fips}.json`)
+        fetch(`resources/${state}/counties/${fips}.json`)
             .then(res => res.json())
             .then(data => {
                 const infobox = document.getElementById("infobox");
