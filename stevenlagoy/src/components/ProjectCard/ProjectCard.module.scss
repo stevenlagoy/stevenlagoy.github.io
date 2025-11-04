@@ -4,26 +4,26 @@ div.projectCard {
     border-radius: 5%;
     overflow: hidden;
 
-    div.thumbnailWrapper {
+    .thumbnailWrapper {
         position: relative;
         width: 25em;
         height: 25em;
 
-        img.thumbnail {
+        .thumbnail {
             width: 100%;
             height: 100%;
             object-fit: cover;
             display: block;
             transition: transform 0.3s ease;
         }
-        div.overlay {
+        .overlay {
             position: absolute;
             inset: 0;
             background: linear-gradient(0deg, #000000AA 30%, #ffffff44 100%);
             z-index: 1;
             transition: opacity 0.3s ease;
         }
-        div.hoverOverlay {
+        .hoverOverlay {
             position: absolute;
             inset: 0;
             background-color: rgba(0,0,0,0.7);
@@ -31,18 +31,19 @@ div.projectCard {
             transition: opacity 0.3s ease;
             z-index: 2;
         }
-        h2.projectName {
+        .projectName {
             position: absolute;
             bottom: 0.5em;
             left: 0.5em;
             color: white;
-            font-size: 2.5em;
+            width: 90%;
+            font-size: 2.25em;
             text-align: start;
             margin: 0;
             z-index: 3;
             transition: all 0.3s ease;
         }
-        h3.projectDate, h3.technologies {
+        .projectDate, .technologies {
             position: absolute;
             bottom: 0;
             left: 1em;
@@ -55,15 +56,16 @@ div.projectCard {
             transition: transform 0.3s ease;
             text-align: start;
         }
-        h3.projectDate {
+        .projectDate {
             font-style: italic;
         }
-        h3.projectDesc {
+        .projectDesc {
             position: absolute;
             bottom: 0;
             left: 1.06125em;
             color: white;
             font-weight: normal;
+            font-size: 1.125em;
             margin: 0;
             z-index: 3;
             transform: translateY(100%);
@@ -73,24 +75,24 @@ div.projectCard {
         }
 
         &:hover {
-            img.thumbnail {
+            .thumbnail {
                 transform: scale(1.125);
             }
-            div.hoverOverlay {
+            .hoverOverlay {
                 opacity: 1;
             }
-            h2.projectName {
-                transform: translateY(-6em);
+            .projectName {
+                transform: translateY(-6.5em);
                 text-decoration: underline;
                 text-underline-offset: 8px;
             }
-            h3.projectDate {
-                transform: translateY(-11em);
+            .projectDate {
+                transform: translateY(-10em);
             }
-            h3.technologies {
-                transform: translateY(-9.5em);
+            .technologies {
+                transform: translateY(-8.5em);
             }
-            h3.projectDesc {
+            .projectDesc {
                 transform: translateY(-1em);
             }
         }

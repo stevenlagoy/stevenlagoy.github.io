@@ -19,9 +19,9 @@ export default function ProjectCard({imgSrc, projectName, projectDate, technolog
                     <div className={styles.overlay}></div>
                     <div className={styles.hoverOverlay}></div>
                     <h2 className={styles.projectName}>{projectName}</h2>
-                    <h3 className={styles.projectDate}>{projectDate}</h3>
-                    <h3 className={styles.technologies}>{technologies}</h3>
-                    <h3 className={styles.projectDesc}>{projectDesc}</h3>
+                    <p className={styles.projectDate}>{projectDate}</p>
+                    <p className={styles.technologies}>{technologies}</p>
+                    <p className={styles.projectDesc}>{projectDesc}</p>
                 </div>
             </Link>
         </div>
