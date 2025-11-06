@@ -24,6 +24,7 @@ export default defineConfig({
           @use "@styles/fonts" as *;
           @use "@styles/themes" as *;
           @use "@styles/typography" as *;
+          @use "@styles/constants" as *;
         `
       },
     },

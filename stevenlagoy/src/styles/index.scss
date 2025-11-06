@@ -1,27 +1,10 @@
 // Styles apply to entire app
+
 body {
   margin: 0;
   border: 0;
   padding: 0;
   width: 100vw;
-  height: 100vh;
-
-  h1 {
-
-  }
-
-  h2 {
-
-  }
-
-  h3 {
-
-  }
-
-  p {
-    
-  }
-
-
-
+  height: fit-content;
+  overflow-x: hidden;
 }

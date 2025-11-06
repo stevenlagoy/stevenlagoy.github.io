@@ -20,6 +20,12 @@ export default function HomePage() {
                 ))}
             </div>
             <FontTest />
+            <FontTest />
+            <FontTest />
+            <FontTest />
+            <FontTest />
+            <FontTest />
+            <FontTest />
         
         </>
     );
