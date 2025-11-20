@@ -25,7 +25,8 @@
     --text-3: #{$gray-100};
 
     --border-1: #{$gray-000};
-    --border-2: #{$gray-050};
+    --border-2: #{$gray-030};
+    --border-3: #{$gray-050};
 }
 
 [data-theme="dark"] { /* Dark Color Theme */
@@ -51,7 +52,8 @@
     --text-3: #{$gray-000};
 
     --border-1: #{$gray-100};
-    --border-2: #{$gray-050};
+    --border-2: #{$gray-070};
+    --border-3: #{$gray-050};
 }
 
 $base-brightness: var(--base-brightness);
@@ -77,3 +79,4 @@ $text-3: var(--text-3);
 
 $border-1: var(--border-1);
 $border-2: var(--border-2);
+$border-3: var(--border-3);
