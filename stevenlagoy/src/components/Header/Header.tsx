@@ -1,27 +1,39 @@
 import styles from "./Header.module.scss";
 import ThemeToggle from "../ThemeToggle";
-import { useEffect } from "react";
+import headshot from "@assets/headshot.png";
+// https://www.svgrepo.com/svg/479773/email-8
+import emailIcon from "@assets/icons/email-8-svgrepo-com.svg";
+// https://www.svgrepo.com/svg/509923/facebook
+import facebookIcon from "@assets/icons/facebook-svgrepo-com.svg";
+// https://www.svgrepo.com/svg/488590/github
+import githubIcon from "@assets/icons/github-svgrepo-com.svg";
+// https://www.svgrepo.com/svg/504546/linkedin
+import linkedinIcon from "@assets/icons/linkedin-svgrepo-com.svg";
 
 export default function Header() {
-    useEffect(() => {
-        const header = document.querySelector("header");
-        const onScroll = () => {
-            const scroll = window.scrollY;
-            const maxScroll = window.innerHeight / 2;
-            const progress = Math.min(scroll / maxScroll, 1);
-            const startHeight = window.innerHeight;
-            const endHeight = window.innerHeight * 0.05;
-            if (header) {
-                header.style.height = `${startHeight - (startHeight - endHeight) * progress}px`;
-            }
-        };
-        window.addEventListener("scroll", onScroll);
-        return () => window.removeEventListener("scroll", onScroll);
-    }, []);
+
+    const linkIconDimension = 35;
 
     return (
-        <header className={`${styles.header}`}>
-            <h1 className={styles.headerText}>Steven LaGoy</h1>
+        <header className={styles.header}>
+            <div className={styles.profile}>
+                <img src={headshot} alt="Profile" width="75" height="75" />
+                <h1 className={styles.headerText}>Steven LaGoy</h1>
+                <div className={styles.profileLinks}>
+                    <a href="mailto:stevenlagoy@gmail.com">
+                        <img src={emailIcon} alt="Email" width={linkIconDimension} height={linkIconDimension} />
+                    </a>
+                    <a href="https://github.com/stevenlagoy">
+                        <img src={githubIcon} alt="GitHub" width={linkIconDimension} height={linkIconDimension} />
+                    </a>
+                    <a href="https://www.linkedin.com/in/steven-lagoy/">
+                        <img src={linkedinIcon} alt="LinkedIn" width={linkIconDimension} height={linkIconDimension} />
+                    </a>
+                    <a href="https://www.facebook.com/profile.php?id=100094507308928">
+                        <img src={facebookIcon} alt="Facebook" width={linkIconDimension} height={linkIconDimension} />
+                    </a>
+                </div>
+            </div>
             <ThemeToggle />
         </header>
     )

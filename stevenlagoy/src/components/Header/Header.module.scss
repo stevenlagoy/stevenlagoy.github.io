@@ -1,20 +1,55 @@
 header {
 
     position: fixed;
-    top: 0;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     z-index: 10;
-    gap: 5em;
+
+    width: 100%;
+    height: $header-height;
 
     background-color: $brand-green;
+    color: $gray-100;
+    display: flex;
+    gap: 10em;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2em;
+    box-sizing: border-box;
 
-    h1 {
-        font-weight: 900;
-        color: $text-1;
-        white-space: nowrap;
+    overflow: hidden;
+
+    .profile {
+
+        display: flex;
+        align-items: center;
+        gap: 2em;
+        height: 100%;
+
+        > img {
+            border: 4px solid black;
+            width: auto;
+            height: 80%;
+            aspect-ratio: 1; // Square
+            border-radius: 50%; // Circle
+        }
+
+        .profileLinks {
+            
+            height: 80%;
+            display: flex;
+            gap: 1em;
+
+            a {
+                height: 100%;
+
+                img {
+                    border: 4px solid black;
+                    border-radius: 50%;
+                    background-color: white;
+                    width: auto;
+                    height: 80%;
+                    aspect-ratio: 1 / 1;
+                }
+            }
+        }
     }
 }
