@@ -1,7 +1,40 @@
 .projects {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    gap: 2em;
+
+    h1 {
+        margin-bottom: 1em;
+    }
+
+    .projectsContainers {
+
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+
+        .categoryContainer {
+
+            padding: 2em;
+            display: flex;
+            flex-direction: column;
+            background-color: $background-2;
+            transition: background-color 0.1s ease;
+            border-radius: 1em;
+
+            &:hover {
+                background-color: $background-3;
+            }
+
+            h2 {
+                margin: 0.5em 0 1em 0;
+            }
+
+            .categoryProjects {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: flex-start;
+                flex-wrap: wrap;
+                gap: 2em;
+            }
+        }
+    }
 }

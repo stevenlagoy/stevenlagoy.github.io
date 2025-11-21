@@ -1,8 +1,13 @@
-import twochre_thumb from "@assets/twochre_thumb.png";
-import pokemon_thumb from "@assets/pokemon_thumb.png";
-import demographics_thumb from "@assets/demographics_thumb.png";
-import whats_that_song_thumb from "@assets/whats_that_song_thumb.png";
-import signing_bee_thumb from "@assets/signing_bee_thumb.png";
+import twochre_thumb from "@assets/project_thumbs/twochre_thumb.png";
+import pokemon_thumb from "@assets/project_thumbs/pokemon_thumb.png";
+import demographics_thumb from "@assets/project_thumbs/demographics_thumb.png";
+import whats_that_song_thumb from "@assets/project_thumbs/whats_that_song_thumb.png";
+import signing_bee_thumb from "@assets/project_thumbs/signing_bee_thumb.png";
+import island_song_thumb from "@assets/project_thumbs/island_song_thumb.png";
+import rendering_engine_thumb from "@assets/project_thumbs/rendering_engine_thumb.png";
+import seet_labs_thumb from "@assets/project_thumbs/seet_labs_thumb.png";
+import jsonic_thumb from "@assets/project_thumbs/jsonic_thumb.png";
+import presidency_thumb from "@assets/project_thumbs/presidency_thumb.png";
 
 export const projects = [
     {
@@ -52,7 +57,7 @@ export const projects = [
     },
     {
         type: "Game Dev",
-        imgSrc: "",
+        imgSrc: island_song_thumb,
         projectName: "Island Song",
         projectDate: "Fall 2025 - Ongoing",
         technologies: "Unreal Engine 5",
@@ -61,7 +66,7 @@ export const projects = [
     },
     {
         type: "Game Dev",
-        imgSrc: "",
+        imgSrc: presidency_thumb,
         projectName: "Presidency Game",
         projectDate: "Spring 2023 - Ongoing",
         technologies: "Java, Python",
@@ -70,7 +75,7 @@ export const projects = [
     },
     {
         type: "Game Dev",
-        imgSrc: "",
+        imgSrc: rendering_engine_thumb,
         projectName: "3D Rendering Engine",
         projectDate: "March 2025",
         technologies: "Java, OpenGL, LWJGL",
@@ -79,7 +84,7 @@ export const projects = [
     },
     {
         type: "Other",
-        imgSrc: "",
+        imgSrc: jsonic_thumb,
         projectName: "Jsonic",
         projectDate: "April 2025 - Present (Maintenance)",
         technologies: "Java, JUnit, Maven",
@@ -88,7 +93,7 @@ export const projects = [
     },
     {
         type: "Other",
-        imgSrc: "",
+        imgSrc: seet_labs_thumb,
         projectName: "Seet Labs: Code",
         projectDate: "Spring 2025",
         technologies: "Angular, Java, TypeScript",
