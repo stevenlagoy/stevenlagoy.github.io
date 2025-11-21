@@ -241,7 +241,7 @@ export default function MandelbrotCanvas() {
                 onMouseDown={handleMouseDown}
                 style={{ width: "100%", height: "100%", display: "block", cursor: "grab" }}
             />
-            <div style={{ position: "fixed", top: 8, left: 8, background: "rgba(0,0,0,0.4)", padding: "6px", borderRadius: "6px" }}>
+            {/* <div style={{ position: "fixed", top: 8, left: 8, background: "rgba(0,0,0,0.4)", padding: "6px", borderRadius: "6px" }}>
                 <label>
                     Iterations: {" "}
                     <input
@@ -251,7 +251,7 @@ export default function MandelbrotCanvas() {
                         style={{ width: "70px" }}
                     />
                 </label>
-            </div>
+            </div> */}
         </div>
     );
 }

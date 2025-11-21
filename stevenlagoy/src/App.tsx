@@ -5,11 +5,13 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import HomePage from "@pages/HomePage";
 import TwochrePage from '@pages/TwochrePage/TwochrePage';
 import FractalPage from '@pages/FractalPage';
+import Fractal from './components/Fractal';
 
 const Layout = ({ children }: { children: ReactNode }) => {    
   
   return (
     <>
+      <Fractal />
       <Header />
       <main>
         { children }

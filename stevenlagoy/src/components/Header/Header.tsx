@@ -20,18 +20,26 @@ export default function Header() {
                 <img src={headshot} alt="Profile" width="75" height="75" />
                 <h1 className={styles.headerText}>Steven LaGoy</h1>
                 <div className={styles.profileLinks}>
-                    <a href="mailto:stevenlagoy@gmail.com">
-                        <img src={emailIcon} alt="Email" width={linkIconDimension} height={linkIconDimension} />
-                    </a>
-                    <a href="https://github.com/stevenlagoy">
-                        <img src={githubIcon} alt="GitHub" width={linkIconDimension} height={linkIconDimension} />
-                    </a>
-                    <a href="https://www.linkedin.com/in/steven-lagoy/">
-                        <img src={linkedinIcon} alt="LinkedIn" width={linkIconDimension} height={linkIconDimension} />
-                    </a>
-                    <a href="https://www.facebook.com/profile.php?id=100094507308928">
-                        <img src={facebookIcon} alt="Facebook" width={linkIconDimension} height={linkIconDimension} />
-                    </a>
+                    <div className={styles.emailLink}>
+                        <a href="mailto:stevenlagoy@gmail.com">
+                            <img src={emailIcon} alt="Email" width={linkIconDimension} height={linkIconDimension} />
+                        </a>
+                    </div>
+                    <div className={styles.githubLink}>
+                        <a href="https://github.com/stevenlagoy">
+                            <img src={githubIcon} alt="GitHub" width={linkIconDimension} height={linkIconDimension} />
+                        </a>
+                    </div>
+                    <div className={styles.linkedinLink}>
+                        <a href="https://www.linkedin.com/in/steven-lagoy/">
+                            <img src={linkedinIcon} alt="LinkedIn" width={linkIconDimension} height={linkIconDimension} />
+                        </a>
+                    </div>
+                    <div className={styles.facebookLink}>
+                        <a href="https://www.facebook.com/profile.php?id=100094507308928">
+                            <img src={facebookIcon} alt="Facebook" width={linkIconDimension} height={linkIconDimension} />
+                        </a>
+                    </div>
                 </div>
             </div>
             <ThemeToggle />
