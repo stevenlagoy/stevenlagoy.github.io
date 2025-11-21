@@ -29,6 +29,11 @@
             background-color: $background-2;
             border-radius: 1em;
             min-width: 0;
+            transition: background-color 0.1s ease;
+
+            &:hover {
+                background-color: $background-3;
+            }
             
             h2 {
                 writing-mode: vertical-lr;
@@ -64,10 +69,41 @@
             }
         }
     }
+}
 
-    @media screen and (max-width: 1100px) {
-        .bio {
-            flex-direction: column !important;
+
+@media screen and (max-width: 1100px) {
+
+    .aboutMe {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2em;
+        padding-right: 2em;
+
+        > h1 {
+            grid-column: span 3;
         }
+
+        .bio {
+            display: contents;
+
+            .bioText {
+                order: 1;
+                width: 100%;
+                grid-column: 1 / -1;
+            }
+
+            .photoContainer {
+                order: 2;
+                width: stretch;
+                grid-column: span 1;
+            }
+        }
+    }
+    
+
+
+    .bio {
+        flex-direction: column !important;
     }
 }
