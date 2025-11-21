@@ -69,7 +69,13 @@ p.small {
 a {
     color: #4CFF4C;
 
+    pointer-events: all;
+
     &:active {
         color: #009900
     }
+}
+
+h1, h2, h4, p {
+    pointer-events: none;
 }
