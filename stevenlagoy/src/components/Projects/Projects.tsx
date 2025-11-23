@@ -9,10 +9,10 @@ export default function Projects() {
 
     useEffect(() => {
         projects.forEach(p => setCategories(prev => { return new Set(prev).add(p.type)}));
-    }, [projects]);
+    }, []);
 
     return (
-        <div className={styles.projects}>
+        <div className={styles.projects} id="projects">
             <h1>Projects</h1>
             <div className={styles.projectsContainers}>
                 {[...categories].map((category: string, idx: number) => (

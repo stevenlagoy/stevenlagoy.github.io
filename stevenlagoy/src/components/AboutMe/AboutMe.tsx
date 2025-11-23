@@ -8,7 +8,7 @@ export default function AboutMe() {
     const photosSize = 200;
 
     return (
-        <section className={styles.aboutMe}>
+        <section className={styles.aboutMe} id="about-me">
             <h1>About Me</h1>
             <div className={styles.bio}>
                 <div className={styles.bioText}>
@@ -46,10 +46,12 @@ export default function AboutMe() {
                     <h2>Now</h2>
                     <p>
                         I am currently an undergrad student at <a href="https://www.pfw.edu/">Purdue
-                        University Fort Wayne</a>. I will graduate in Spring of 2026 with a dachelor's
-                        in Computer Science. In Fall of 2025, I also started earning a postgraduate
-                        degree through dual-enrollment. I hope to earn my master's degree in Computer
-                        Science in Spring of 2027. I am an honors student with a cumulative GPA of 3.70.
+                        University Fort Wayne</a>. I will graduate in Spring of 2026 with 
+                        a <a href="https://www.pfw.edu/academics-research/majors-minors/computer-science-bs">
+                        bachelor's in Computer Science</a>. In Fall of 2025, I also started earning
+                        a postgraduate degree through dual-enrollment. I hope to earn my master's
+                        degree in Computer Science in Spring of 2027. I am an honors student with
+                        a cumulative GPA of 3.70.
                     </p>
                 </div>
                 <div className={styles.photoContainer}><img className={styles.photo} src={photo2} alt="" width={photosSize} height={photosSize} /></div>

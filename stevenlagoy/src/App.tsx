@@ -1,24 +1,9 @@
 import './App.scss';
-import { type ReactNode } from 'react';
-import Header from '@components/Header';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Layout } from './Layout';
 import HomePage from "@pages/HomePage";
 import TwochrePage from '@pages/TwochrePage/TwochrePage';
 import FractalPage from '@pages/FractalPage';
-import Fractal from './components/Fractal';
-
-const Layout = ({ children }: { children: ReactNode }) => {    
-  
-  return (
-    <>
-      <Fractal />
-      <Header />
-      <main>
-        { children }
-      </main>
-    </>
-  );
-};
 
 export default function App() {
   return (

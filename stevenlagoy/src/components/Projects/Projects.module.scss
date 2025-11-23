@@ -1,5 +1,10 @@
 .projects {
 
+    background-color: $background-2;
+    padding: 5em 2em;
+    border-radius: 1em;
+    margin-bottom: 5em;
+
     h1 {
         margin-bottom: 1em;
     }
@@ -15,12 +20,12 @@
             padding: 2em;
             display: flex;
             flex-direction: column;
-            background-color: $background-2;
+            background-color: $background-3;
             transition: background-color 0.1s ease;
             border-radius: 1em;
 
             &:hover {
-                background-color: $background-3;
+                background-color: $background-4;
             }
 
             h2 {
