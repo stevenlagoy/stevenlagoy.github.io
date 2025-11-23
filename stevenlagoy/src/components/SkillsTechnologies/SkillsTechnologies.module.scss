@@ -1,3 +1,26 @@
 .skillsTechnologies {
-    background-color: red; // Testing
+
+    display: flex;
+    flex-direction: column;
+    gap: 4em;
+    padding: 5em 2em;
+    background-color: $background-2;
+    border-radius: 1em;
+    margin-bottom: 5em;
+
+    .skillsCategory {
+        background-color: $background-3;
+        border-radius: 1em;
+        padding: 0 2em 1em;
+
+        &:hover {
+            background-color: $background-4;
+        }
+
+        .skill {
+            display: flex;
+            gap: 1em;
+        }
+    }
+
 }

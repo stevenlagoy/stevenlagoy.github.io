@@ -30,7 +30,7 @@ import reactLogo from "@assets/icons/react-svgrepo-com.svg";
 import dockerLogo from "@assets/icons/docker-svgrepo-com.svg";
 
 export const skills_technologies = {
-    "practiced" : [
+    "Practiced" : [
         {
             img: javaLogo,
             name: "Java",
@@ -64,7 +64,7 @@ export const skills_technologies = {
             name: "JavaScript",
         },
     ],
-    "familiar" : [
+    "Familiar" : [
         {
             img: tsLogo,
             name: "TypeScript",
@@ -82,7 +82,7 @@ export const skills_technologies = {
             name: "React",
         },
     ],
-    "exploring" : [
+    "Exploring" : [
         {
             img: dockerLogo,
             name: "Docker",
