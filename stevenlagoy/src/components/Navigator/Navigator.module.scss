@@ -1,0 +1,76 @@
+.navigator {
+    position: sticky;
+    top: $header-height;
+    z-index: 10;
+    // display: contents;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: fit-content;
+
+    padding: 5em 5em 0 0;
+
+    .item {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 0.5rem;
+        position: relative;
+    }
+
+    .label {
+        position: absolute;
+        left: -5rem;
+        top: 2rem;
+        opacity: 0;
+        font-size: 0.9rem;
+        color: $text-1;
+        transition: opacity 0.2s ease;
+        white-space: nowrap;
+        text-align: right;
+    }
+    .item:hover .label {
+        opacity: 1;
+    }
+
+    .anchorWrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .anchor {
+        stroke: $text-1;
+        stroke-width: 1rem;
+        cursor: pointer;
+
+        circle {
+            transition: fill 0.5s ease;
+        }
+    }
+    .activeFill {
+        fill: $text-1;
+    }
+    .inactiveFill {
+        fill: transparent;
+    }
+
+
+    .connector {
+        width: 1rem;
+        height: 5em;
+        background: $text-1;
+        flex-grow: 1;
+        margin: 0;
+        margin-bottom: -0.5rem;
+    }
+
+}
+
+@media screen and (max-width: 1500px) {
+    .navigator {
+        display: none;
+    }
+}
