@@ -1,111 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Steven LaGoy | Portfolio</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-<header>
-  <div class="hero">
-    <img src="headshot.png" alt="headshot">
-    <div class="hero-text">
-      <h1>Steven LaGoy</h1>
-      <p>
-        <a href="https://github.com/stevenlagoy" class="github-link">
-          ⭐ View My GitHub Profile
-        </a>
-      </p>
-    </div>
-  </div>
-</header>
-
-<main>
-  <section class="projects">
-    <h2>Projects</h2>
-    <p>Click on a project below to view</p>
-    
-    <div class="project">
-      <a href="us-demographics-viewer/demographics_viewer.html"><img src="us-demographics-viewer/preview.png" alt="U.S. Demographic Visualizer Preview"></a>
-      <button onclick="window.location.href='us-demographics-viewer/demographics_viewer.html'">
-        U.S. Demographic Visualizer
-      </button>
-      <p>Tool for ongoing research with the <a href="https://www.pfw.edu/honors">PFW Honors Program</a> and <a href="https://docs.lib.purdue.edu/jpur/">JPUR</a> to visualize demographic information in the US by county.</p>
-    </div>
-
-    <div class="project">
-      <a href="poke-grind-locator/poke-grind-locator.html"><img src="poke-grind-locator/preview.png" alt="Pokémon Platinum Grind Locator Preview"></a>
-      <button onclick="window.location.href='poke-grind-locator/poke-grind-locator.html'">
-        Pokémon Platinum Level Grind Locator
-      </button>
-      <p>Calculator which takes information about a Pokémon and suggests locations to travel to, based on abilities and danger. Built in TypeScript with several classes for Pokémon, Moves, Routes, etc.</p>
-    </div>
-
-    <div class="project">
-      <a href="twochre/gameScreen.html"><img src="twochre/preview.png" alt="Twochre Preview"></a>
-      <button onclick="window.location.href='twochre/gameScreen.html'">
-        Play Twochre!
-      </button>
-      <p>Card game based on Euchre, with AI behavior and unique mechanics. My first project of this scope.</p>
-    </div>
-  </section>
-
-  <section>
-    <h2>💡 About Me</h2>
-    <p>
-      Hi! I am a Computer Science student with interests ranging from Soccer to Music to History.
-      I've been interested in technology forever and have been coding for nearly 8 years now.
-      I've worked with robotics, simulations, web applications, and more. I love applying my
-      Computer Science knowledge to my other interests and hobbies! Feel free to reach out to me
-      through the links at the bottom of this bio. 😀
-    </p>
-  </section>
-
-  <section>
-    <h2>🎓 Education</h2>
-    <p><b>Purdue University Fort Wayne</b><br><i>GPA: 3.70</i></p>
-    <ul>
-      <li>M.S. in Computer Science — Beginning Fall 2025</li>
-      <li>B.S. in Computer Science — Expected May 2026</li>
-      <li>Minors: Mathematics, History</li>
-    </ul>
-  </section>
-
-  <section>
-    <h2>💻 Tech Stack</h2>
-    <div class="badges">
-      <p><b>Primary:</b></p>
-        <img src="https://img.shields.io/badge/-Java-007396?style=flat-square&logo=java&logoColor=white"/>
-        <img src="https://img.shields.io/badge/-C-A8B9CC?style=flat-square&logo=c&logoColor=black"/>
-        <img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-        <img src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
-        <img src="https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"/>
-        <img src="https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white"/>
-        <img src="https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white"/>
-      <p><b>Also Familiar With:</b></p>
-        <img src="https://img.shields.io/badge/-SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white"/>
-        <img src="https://img.shields.io/badge/-C%23-239120?style=flat-square&logo=c-sharp&logoColor=white"/>
-        <img src="https://img.shields.io/badge/-Ruby-CC342D?style=flat-square&logo=ruby&logoColor=white"/>
-        <img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
-    </div>
-  </section>
-
-  <section>
-    <h2>📫 Connect With Me</h2>
-    <ul>
-      <li>🌐 <a href="https://stevenlagoy.github.io/">stevenlagoy.github.io</a></li>
-      <li>👔 <a href="https://www.linkedin.com/in/steven-lagoy/">LinkedIn</a></li>
-      <li>📧 stevenlagoy@gmail.com</li>
-      <li>📧 lagosm01@pfw.edu</li>
-    </ul>
-  </section>
-</main>
-
-<footer>
-  ⭐️ From <a href="https://github.com/stevenlagoy">stevenlagoy</a>
-</footer>
-
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/img" href="favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Steven LaGoy - Portfolio</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>

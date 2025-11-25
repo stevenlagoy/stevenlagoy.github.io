@@ -1,0 +1,102 @@
+.skillsTechnologies {
+
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 3em 2em;
+    background-color: $background-2;
+    border-radius: 1em;
+    margin-bottom: 5em;
+
+    .subheader {
+        font-size: 1.25em;
+    }
+
+    .skillsCategory {
+        display: flex;
+        flex-direction: column;
+        background-color: $background-3;
+        border-radius: 1em;
+        padding: 0 2em 2em;
+        gap: 1em;
+
+        transition: background-color 0.3s ease;
+
+        &:hover {
+            background-color: $background-4;
+        }
+
+        .skills {
+            display: grid;
+            grid-template-columns: 30em 30em;
+            gap: 1em;
+
+            @media screen and (max-width: 1300px) {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .skill {
+                display: flex;
+                gap: 1em;
+                align-items: center;
+                border-radius: 1em;
+                padding: 0.5em;
+
+                transition: background-color 0.3s ease;
+
+                &:hover {
+                    background-color: $background-5;
+
+                    p {
+                        color: $link-2;
+                    }
+
+                    .skillImage {
+                        transform: scale(1.2);
+                    }
+                }
+    
+                .skillImageWrapper {
+    
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 4em;
+                    height: 4em;
+                    border-radius: 50%;
+                    border-style: solid;
+    
+                    &.black {
+                        background-color: black;
+                        border-color: white;
+                    }
+    
+                    &.white {
+                        background-color: white;
+                        border-color: black;
+                    }
+    
+                    .skillImage {
+                        width: 2.5em;
+                        height: 2.5em;
+                        aspect-ratio: 1;
+
+                        transition: transform 0.3s ease;
+                    }
+                }
+    
+                > p {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin: 0;
+                    font-size: 2em;
+                    font-weight: 500;
+
+                    transition: color 0.3s ease;
+                }
+            }
+        }
+    }
+}
