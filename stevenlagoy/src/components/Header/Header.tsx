@@ -2,13 +2,13 @@ import styles from "./Header.module.scss";
 import ThemeToggle from "../ThemeToggle";
 import headshot from "@assets/headshot.png";
 // https://www.svgrepo.com/svg/479773/email-8
-import emailIcon from "@assets/icons/email-8-svgrepo-com.svg";
+import emailIcon from "@assets/icons/email-8-svgrepo-com-mono.svg";
 // https://www.svgrepo.com/svg/509923/facebook
-import facebookIcon from "@assets/icons/facebook-svgrepo-com.svg";
-// https://www.svgrepo.com/svg/488590/github
-import githubIcon from "@assets/icons/github-svgrepo-com.svg";
+import facebookIcon from "@assets/icons/facebook-svgrepo-com-mono.svg";
+// https://www.svgrepo.com/svg/504388/github
+import githubIcon from "@assets/icons/github-svgrepo-com-mono.svg";
 // https://www.svgrepo.com/svg/504546/linkedin
-import linkedinIcon from "@assets/icons/linkedin-svgrepo-com.svg";
+import linkedinIcon from "@assets/icons/linkedin-svgrepo-com-mono.svg";
 
 export default function Header() {
 
