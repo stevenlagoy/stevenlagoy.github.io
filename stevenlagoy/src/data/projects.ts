@@ -17,7 +17,7 @@ export const projects = [
         projectDate: "February 2025",
         technologies: "HTML, CSS, & Javascript",
         projectDesc: "A card game based on Euchre, with AI opponent behavior and unique mechanics. Play against 4 opponents in a game where nobody knows what card they'll play next.",
-        projectPath: "/twochre"
+        projectPath: "/twochre",
     },
     {
         type: "Web Dev",
@@ -26,7 +26,7 @@ export const projects = [
         projectDate: "May 2025",
         technologies: "HTML, CSS, & Typescript",
         projectDesc: "Calculator for Pokémon Platinum which suggests locations to earn experience based on your Pokémon's type and abilities.",
-        projectPath: "/pokemon"
+        projectPath: "/pokemon",
     },
     {
         type: "Web Dev",
@@ -35,7 +35,7 @@ export const projects = [
         projectDate: "Fall 2025 - Spring 2026",
         technologies: "Javascript, Python",
         projectDesc: "A visualization tool for my ongoing research with the PFW Honors Program and JPUR to explore demographic information in the US by county.",
-        projectPath: "/us-demographics-visualizer"
+        projectPath: "/us-demographics-visualizer",
     },
     {
         type: "Web Dev",
@@ -44,7 +44,7 @@ export const projects = [
         projectDate: "October 2025",
         technologies: "React, RapidAPI",
         projectDesc: "A game using the Spotify API to create a game from your favorite playlists, artists, or albums.",
-        projectPath: "/whats-that-song"
+        projectPath: "/whats-that-song",
     },
     {
         type: "Web Dev",
@@ -53,7 +53,7 @@ export const projects = [
         projectDate: "Fall 2025",
         technologies: "React, Node, PostgreSQL, Jest, Cypress",
         projectDesc: "Sign Language learning platform using gesture recognition to identify user ASL signs.",
-        projectPath: "https://github.com/stevenlagoy/Signing-Bee"
+        projectPath: "https://signingbee.xyz",
     },
     {
         type: "Game Dev",
@@ -62,7 +62,7 @@ export const projects = [
         projectDate: "Fall 2025 - Ongoing",
         technologies: "Unreal Engine 5",
         projectDesc: "Capstone project puzzle game where music and instruments restore color to a forgotten island.",
-        projectPath: "/"
+        projectPath: "/",
     },
     {
         type: "Game Dev",
@@ -71,7 +71,7 @@ export const projects = [
         projectDate: "Spring 2023 - Ongoing",
         technologies: "Java, Python",
         projectDesc: "Long-term personal game project modeling the complexities of the United States presidential electoral system.",
-        projectPath: "https://github.com/stevenlagoy/Presidency-Game"
+        projectPath: "https://github.com/stevenlagoy/Presidency-Game",
     },
     {
         type: "Game Dev",
@@ -80,7 +80,7 @@ export const projects = [
         projectDate: "March 2025",
         technologies: "Java, OpenGL, LWJGL",
         projectDesc: "3D rendering graphics engine to create game scenes and UIs.",
-        projectPath: "https://github.com/stevenlagoy/3D-Rendering-Engine"
+        projectPath: "https://github.com/stevenlagoy/3D-Rendering-Engine",
     },
     {
         type: "Other",
@@ -89,7 +89,7 @@ export const projects = [
         projectDate: "April 2025 - Present (Maintenance)",
         technologies: "Java, JUnit, Maven",
         projectDesc: "JSON-Java objectifier library for parsing, validating, and manipulating JSON data as Java objects with strong type safety and customizable object structures.",
-        projectPath: "https://github.com/stevenlagoy/Jsonic"
+        projectPath: "https://github.com/stevenlagoy/Jsonic",
     },
     {
         type: "Other",
