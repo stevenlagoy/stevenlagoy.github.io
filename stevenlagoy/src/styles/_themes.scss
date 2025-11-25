@@ -2,15 +2,17 @@
 
 @use "./colors" as *;
 
+
 :root { /* Light Color Theme */
     
     --base-brightness: 100;
+    --background-transparency: 70%;
 
-    --background-1: #{$gray-100};
-    --background-2: #{$gray-090};
-    --background-3: #{$gray-080};
-    --background-4: #{$gray-070};
-    --background-5: #{$gray-060};
+    --background-1: rgb(from #{$gray-100} r b g / var(--background-transparency));
+    --background-2: rgb(from #{$gray-090} r b g / var(--background-transparency));
+    --background-3: rgb(from #{$gray-080} r b g / var(--background-transparency));
+    --background-4: rgb(from #{$gray-070} r b g / var(--background-transparency));
+    --background-5: rgb(from #{$gray-060} r b g / var(--background-transparency));
 
     --brand-red: #{$brand-red-75};
     --brand-orange: #{$brand-orange-75};
@@ -32,12 +34,13 @@
 [data-theme="dark"] { /* Dark Color Theme */
 
     --base-brightness: 0;
+    --background-transparency: 70%;
 
-    --background-1: #{$gray-000};
-    --background-2: #{$gray-010};
-    --background-3: #{$gray-020};
-    --background-4: #{$gray-030};
-    --background-5: #{$gray-040};
+    --background-1: rgb(from #{$gray-000} r b g / var(--background-transparency));
+    --background-2: rgb(from #{$gray-010} r b g / var(--background-transparency));
+    --background-3: rgb(from #{$gray-020} r b g / var(--background-transparency));
+    --background-4: rgb(from #{$gray-030} r b g / var(--background-transparency));
+    --background-5: rgb(from #{$gray-040} r b g / var(--background-transparency));
 
     --brand-red: #{$brand-red-25};
     --brand-orange: #{$brand-orange-25};
