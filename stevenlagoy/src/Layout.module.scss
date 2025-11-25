@@ -1,6 +1,14 @@
 .content {
     display: flex;
     flex-direction: row-reverse;
-    background-color: $background-1;
     align-items: flex-start;
+    background-image: url("@assets/background.png");
+    background-color: $background-1;
+    background-size: 300px;
+    background-attachment: fixed;
+    background-position: center;
+
+    @media screen and (max-width: 1400px) {
+        background-attachment: scroll;
+    }
 }
