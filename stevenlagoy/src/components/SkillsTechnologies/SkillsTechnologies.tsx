@@ -38,7 +38,7 @@ export default function SkillsTechnologies() {
     return (
         <section className={styles.skillsTechnologies} id="skills-technologies">
             <h1>Skills & Technologies</h1>
-            <p className={styles.subheader}>Click on a skill or technology to see a project using that technology</p>
+            <p className={styles.subheader}>Click on a skill or technology to see a project using it</p>
             {[...categories].map((c, i) => (
                 <div className={styles.skillsCategory} key={i}>
                     <h2>{c}</h2>

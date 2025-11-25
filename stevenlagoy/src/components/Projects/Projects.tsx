@@ -14,6 +14,7 @@ export default function Projects() {
     return (
         <section className={styles.projects} id="projects">
             <h1>Projects</h1>
+            <p className={styles.subheader}>Hover on a project to see details, and click to see the project</p>
             <div className={styles.projectsContainers}>
                 {[...categories].map((category: string, idx: number) => (
                     <div className={styles.categoryContainer} key={idx}>

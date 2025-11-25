@@ -1,6 +1,8 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 // import styles from "./MandelbrotCanvas.module.scss";
 
+import ScrollBubble from "@components/ScrollBubble";
+
 const MandelbrotWorker = new URL("@/workers/MandelbrotWorker.ts", import.meta.url);
 
 export default function MandelbrotCanvas() {
@@ -137,14 +139,14 @@ export default function MandelbrotCanvas() {
         let t = 0;
         let phase: "zoomOut" | "zoomIn" = "zoomIn";
 
-        const cycleDuration = 20_000; // total time for in+out
+        const cycleDuration = 30_000; // total time for in+out
         const halfCycle = cycleDuration / 2;
 
         const baseScale = 3.5; // zoomed-out view
         const minScale = 0.05;  // deepest zoom
 
         const pickInterestingTarget = () => {
-            const candidates = 100;
+            const candidates = 500;
             const maxTestIter = 100;
             let best = { cx: -0.75, cy: 0, score: -Infinity };
 
@@ -241,8 +243,9 @@ export default function MandelbrotCanvas() {
         <div style={{ width: "100vw", height: "100vh", background: "#111", color: "#ccc" }}>
             <canvas
                 ref={canvasRef}
-                style={{ width: "100%", height: "100%", display: "block", cursor: "none" }}
+                style={{ width: "100%", height: "100%", display: "block", cursor: "default" }}
             />
+            <ScrollBubble />
         </div>
     );
 }

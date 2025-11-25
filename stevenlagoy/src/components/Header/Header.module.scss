@@ -7,13 +7,14 @@ header {
     height: $header-height;
 
     background-color: $brand-green;
-    color: $gray-100;
+    color: $text-1;
     display: flex;
     gap: 10em;
     align-items: center;
     justify-content: space-between;
     padding: 0 2em;
     box-sizing: border-box;
+    border-top: 0.5em solid white;
 
     overflow: hidden;
 

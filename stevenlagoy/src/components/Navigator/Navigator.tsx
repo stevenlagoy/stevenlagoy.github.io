@@ -19,7 +19,7 @@ export default function Navigator({ targets }: NavigatorProps) {
 
         const headerHeight = document.querySelector("header")?.clientHeight || 0;
 
-        const top = el.getBoundingClientRect().top + window.scrollY - headerHeight - 80;
+        const top = el.getBoundingClientRect().top + window.scrollY - headerHeight - 40;
 
         window.scrollTo({
             top,
@@ -58,12 +58,10 @@ export default function Navigator({ targets }: NavigatorProps) {
         return () => observers.forEach((o) => o.disconnect());
     }, [targets]);
 
-    useEffect(() => {console.log(activeId)}, [activeId])
-
     return (
         <nav className={styles.navigator}>
             {targets.map((t, i) => (
-                <div key={t.id} className={styles.item}>
+                <div key={t.id} className={styles.item} title={t.id} >
                     {/* <span className={styles.label}>{t.id}</span> */}
                     <div className={styles.anchorWrapper}>
                         <svg

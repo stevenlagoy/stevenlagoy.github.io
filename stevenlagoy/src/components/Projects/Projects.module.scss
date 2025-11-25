@@ -1,12 +1,15 @@
 .projects {
 
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 3em 2em;
     background-color: $background-2;
-    padding: 5em 2em;
     border-radius: 1em;
     margin-bottom: 5em;
 
-    h1 {
-        margin-bottom: 1em;
+    .subheader {
+        font-size: 1.25em;
     }
 
     .projectsContainers {

@@ -55,6 +55,10 @@
     }
     .inactiveFill {
         fill: transparent;
+
+        &:hover {
+            fill: hsla(0, 0, 100%, 50%);
+        }
     }
 
 

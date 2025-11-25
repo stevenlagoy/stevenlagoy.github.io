@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     gap: 1em;
-    padding: 5em 2em;
+    padding: 3em 2em;
     background-color: $background-2;
     border-radius: 1em;
     margin-bottom: 5em;
@@ -22,11 +22,21 @@
         
         &:hover {
             background-color: $background-4;
+
+            p {
+                color: $link-2;
+            }
+
+            img {
+                transform: scale(1.2);
+            }
         }
         
         p {
             font-size: 2em;
             margin: 0;
+
+            transition: color 0.3s ease;
 
             &:nth-child(odd) {
                 font-weight: bold;
@@ -44,5 +54,12 @@
         justify-content: center;
         align-items: center;
         
+        img {
+            width: 3em;
+            height: auto;
+            aspect-ratio: 1;
+
+            transition: transform 0.3s ease;
+        }
     }
 }

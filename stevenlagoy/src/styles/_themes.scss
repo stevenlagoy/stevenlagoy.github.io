@@ -6,13 +6,13 @@
 :root { /* Light Color Theme */
     
     --base-brightness: 100;
-    --background-transparency: 70%;
+    --background-opacity: 70%;
 
-    --background-1: rgb(from #{$gray-100} r b g / var(--background-transparency));
-    --background-2: rgb(from #{$gray-090} r b g / var(--background-transparency));
-    --background-3: rgb(from #{$gray-080} r b g / var(--background-transparency));
-    --background-4: rgb(from #{$gray-070} r b g / var(--background-transparency));
-    --background-5: rgb(from #{$gray-060} r b g / var(--background-transparency));
+    --background-1: rgb(from #{$gray-100} r b g / var(--background-opacity));
+    --background-2: rgb(from #{$gray-090} r b g / var(--background-opacity));
+    --background-3: rgb(from #{$gray-080} r b g / var(--background-opacity));
+    --background-4: rgb(from #{$gray-070} r b g / var(--background-opacity));
+    --background-5: rgb(from #{$gray-050} r b g / var(--background-opacity));
 
     --brand-red: #{$brand-red-75};
     --brand-orange: #{$brand-orange-75};
@@ -29,18 +29,23 @@
     --border-1: #{$gray-000};
     --border-2: #{$gray-030};
     --border-3: #{$gray-050};
+
+    --link-1: #{$brand-green-25};
+    --link-2: #{$brand-green-50};
+
+    --content-background: url("@assets/background-light.png");
 }
 
 [data-theme="dark"] { /* Dark Color Theme */
 
     --base-brightness: 0;
-    --background-transparency: 70%;
+    --background-opacity: 70%;
 
-    --background-1: rgb(from #{$gray-000} r b g / var(--background-transparency));
-    --background-2: rgb(from #{$gray-010} r b g / var(--background-transparency));
-    --background-3: rgb(from #{$gray-020} r b g / var(--background-transparency));
-    --background-4: rgb(from #{$gray-030} r b g / var(--background-transparency));
-    --background-5: rgb(from #{$gray-040} r b g / var(--background-transparency));
+    --background-1: rgb(from #{$gray-000} r b g / var(--background-opacity));
+    --background-2: rgb(from #{$gray-010} r b g / var(--background-opacity));
+    --background-3: rgb(from #{$gray-020} r b g / var(--background-opacity));
+    --background-4: rgb(from #{$gray-030} r b g / var(--background-opacity));
+    --background-5: rgb(from #{$gray-050} r b g / var(--background-opacity));
 
     --brand-red: #{$brand-red-25};
     --brand-orange: #{$brand-orange-25};
@@ -57,6 +62,11 @@
     --border-1: #{$gray-100};
     --border-2: #{$gray-070};
     --border-3: #{$gray-050};
+
+    --link-1: #{$brand-green-25};
+    --link-2: #{$brand-green-50};
+
+    --content-background: url("@assets/background-dark.png");
 }
 
 $base-brightness: var(--base-brightness);
@@ -83,3 +93,8 @@ $text-3: var(--text-3);
 $border-1: var(--border-1);
 $border-2: var(--border-2);
 $border-3: var(--border-3);
+
+$link-1: var(--link-1);
+$link-2: var(--link-2);
+
+$content-background: var(--content-background);
