@@ -12,7 +12,7 @@ export default function Projects() {
     }, []);
 
     return (
-        <div className={styles.projects} id="projects">
+        <section className={styles.projects} id="projects">
             <h1>Projects</h1>
             <div className={styles.projectsContainers}>
                 {[...categories].map((category: string, idx: number) => (
@@ -34,6 +34,6 @@ export default function Projects() {
                     </div>
                 ))}
             </div>
-        </div>
+        </section>
     );
 }

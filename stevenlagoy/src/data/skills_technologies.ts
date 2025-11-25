@@ -1,99 +1,154 @@
 // https://www.svgrepo.com/svg/535245/c
-import cLogo from "@assets/icons/c-svgrepo-com.svg";
+// import cLogo from '@assets/icons/c-svgrepo-com-mono.svg';
 // https://www.svgrepo.com/svg/508906/cplusplus
-import cppLogo from "@assets/icons/cplusplus-svgrepo-com.svg";
+// https://www.svgrepo.com/svg/376358/c-plus-plus
+// https://www.svgrepo.com/svg/373528/cpp3
+import cppLogo from '@assets/icons/cpp3-svgrepo-com.svg';
 // https://www.svgrepo.com/svg/508921/java
-import javaLogo from "@assets/icons/java-svgrepo-com.svg";
+// https://www.svgrepo.com/svg/452234/java
+import javaLogo from '@assets/icons/java-svgrepo-com-color.svg';
 // https://www.svgrepo.com/svg/473670/javascript
-import jsLogo from "@assets/icons/javascript-155-svgrepo-com.svg";
+// https://www.svgrepo.com/svg/349419/javascript
+import jsLogo from '@assets/icons/javascript-svgrepo-com-color.svg';
 // https://www.svgrepo.com/svg/342317/typescript
-import tsLogo from "@assets/icons/typescript-svgrepo-com.svg";
+// https://www.svgrepo.com/svg/349540/typescript
+import tsLogo from '@assets/icons/typescript-svgrepo-com-color.svg';
 // https://www.svgrepo.com/svg/508940/ruby
-import rubyLogo from "@assets/icons/ruby-svgrepo-com.svg";
+// https://www.svgrepo.com/svg/452095/ruby
+import rubyLogo from '@assets/icons/ruby-svgrepo-com-color.svg';
 // https://www.svgrepo.com/svg/535339/database
-import sqlLogo from "@assets/icons/database-svgrepo-com.svg";
+import sqlLogo from '@assets/icons/database-svgrepo-com-mono.svg';
 // https://www.svgrepo.com/svg/473760/postgresql
-import postgresLogo from "@assets/icons/postgresql-svgrepo-com.svg";
+// https://www.svgrepo.com/svg/303301/postgresql-logo
+import postgresLogo from '@assets/icons/postgresql-logo-svgrepo-com-color.svg';
 // https://www.svgrepo.com/svg/473729/mongodb
-import mongodbLogo from "@assets/icons/mongodb-svgrepo-com.svg";
+// https://www.svgrepo.com/svg/373845/mongo
+import mongodbLogo from '@assets/icons/mongo-svgrepo-com-color.svg';
 // https://www.svgrepo.com/svg/508795/css3-02
-import cssLogo from "@assets/icons/css3-02-svgrepo-com.svg";
-//https://www.svgrepo.com/svg/503555/sass
-import sassLogo from "@assets/icons/sass-svgrepo-com.svg";
+// https://www.svgrepo.com/svg/373535/css
+import cssLogo from '@assets/icons/css-svgrepo-com-color.svg';
+// https://www.svgrepo.com/svg/503555/sass
+// https://www.svgrepo.com/svg/349502/sass
+import sassLogo from '@assets/icons/sass-svgrepo-com-color.svg';
 // https://www.svgrepo.com/svg/512355/html-124
-import htmlLogo from "@assets/icons/html-124-svgrepo-com.svg";
+// https://www.svgrepo.com/svg/452228/html-5
+import htmlLogo from '@assets/icons/html-5-svgrepo-com-color.svg';
 // https://www.svgrepo.com/svg/512738/python-127
-import pythonLogo from "@assets/icons/python-svgrepo-com.svg"
+// https://www.svgrepo.com/svg/452091/python
+import pythonLogo from '@assets/icons/python-svgrepo-com-color.svg'
 // https://www.svgrepo.com/svg/503536/react
-import reactLogo from "@assets/icons/react-svgrepo-com.svg";
+// https://www.svgrepo.com/svg/452092/react
+import reactLogo from '@assets/icons/react-svgrepo-com-color.svg';
 // https://www.svgrepo.com/svg/473589/docker
-import dockerLogo from "@assets/icons/docker-svgrepo-com.svg";
+// https://www.svgrepo.com/svg/448221/docker
+import dockerLogo from '@assets/icons/docker-svgrepo-com-color.svg';
+// https://www.svgrepo.com/svg/504388/github
+import githubLogo from '@assets/icons/github-svgrepo-com-mono.svg';
+// https://www.svgrepo.com/svg/445914/node-js
+// https://www.svgrepo.com/svg/378837/node
+import nodeLogo from '@assets/icons/node-svgrepo-com-color.svg';
 
 export const skills_technologies = {
-    "Practiced" : [
+    'Practiced' : [
         {
             img: javaLogo,
-            name: "Java",
-        },
-        {
-            img: cLogo,
-            name: "C",
+            background: 'black',
+            name: 'Java',
+            link: 'https://github.com/stevenlagoy/Jsonic/tree/main/src/main/java/core',
         },
         {
             img: cppLogo,
-            name: "C++",
+            background: 'white',
+            name: 'C / C++',
+            link: 'https://github.com/stevenlagoy/US-Demographic-Electoral-Model/tree/dev/src/main/core/assigning_descriptors/cpp2',
         },
         {
             img: pythonLogo,
-            name: "Python",
+            background: 'black',
+            name: 'Python',
+            link: 'https://github.com/stevenlagoy/US-Demographic-Electoral-Model/tree/dev/src/main/core/gathering_data',
         },
         {
             img: htmlLogo,
-            name: "HTML5",
+            background: 'white',
+            name: 'HTML5',
+            link: 'https://github.com/PFW-CS/hw1-html-stevenlagoy',
         },
         {
             img: cssLogo,
-            name: "CSS",
+            background: 'white',
+            name: 'CSS',
+            link: 'https://github.com/PFW-CS/hw2-css-stevenlagoy',
         },
         {
             img: sassLogo,
-            name: "Sass",
+            background: 'white',
+            name: 'Sass',
+            link: 'https://github.com/PFW-CS/hw3-js-stevenlagoy/blob/main/style.scss',
         },
         {
             img: jsLogo,
-            name: "JavaScript",
+            background: 'black',
+            name: 'JavaScript',
+            link: 'https://github.com/PFW-CS/hw3-js-stevenlagoy/blob/main/script.js',
         },
+        {
+            img: githubLogo,
+            background: 'white',
+            name: 'Git / GitHub',
+            link: 'https://github.com/stevenlagoy',
+        }
     ],
-    "Familiar" : [
+    'Familiar' : [
         {
             img: tsLogo,
-            name: "TypeScript",
+            background: 'white',
+            name: 'TypeScript',
+            link: 'https://github.com/stevenlagoy/poke-grind-locator',
         },
         {
             img: rubyLogo,
-            name: "Ruby",
+            background: 'white',
+            name: 'Ruby',
+            link: 'https://github.com/iPrakharV/CS-35000-Term-Project/tree/main/ruby_project',
         },
         {
             img: sqlLogo,
-            name: "SQL",
+            background: 'white',
+            name: 'SQL',
+            link: 'https://github.com/stevenlagoy/CS-Labs/blob/main/CS%20364/Database%20Systems%20Homework%205/src/main/java/JDBCDemo.java',
         },
         {
             img: reactLogo,
-            name: "React",
+            background: 'black',
+            name: 'React',
+            link: 'https://github.com/PFW-CS/hw5-back-end-stevenlagoy/tree/main/whats-that-song/client',
+        },
+        {
+            img: nodeLogo,
+            background: 'white',
+            name: 'Node.js + Express.js',
+            link: 'https://github.com/PFW-CS/hw5-back-end-stevenlagoy/tree/main/whats-that-song/server',
         },
     ],
-    "Exploring" : [
+    'Exploring' : [
         {
             img: dockerLogo,
-            name: "Docker",
+            background: 'white',
+            name: 'Docker',
+            link: 'https://github.com/stevenlagoy/Signing-Bee',
         },
         {
             img: mongodbLogo,
-            name: "MongoDB",
+            background: 'black',
+            name: 'MongoDB',
+            link: 'https://github.com/PFW-CS/hw5-back-end-stevenlagoy/tree/main/whats-that-song/client',
         },
         {
             img: postgresLogo,
-            name: "PostgreSQL",
+            background: 'white',
+            name: 'PostgreSQL',
+            link: 'https://github.com/stevenlagoy/Signing-Bee/tree/main/backend',
         },
     ]
 }
