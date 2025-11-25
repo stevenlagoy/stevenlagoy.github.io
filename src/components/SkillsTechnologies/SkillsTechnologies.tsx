@@ -33,8 +33,6 @@ export default function SkillsTechnologies() {
         setSkillsTechnologies([...temp]);
     }, []);
 
-    useEffect(() => {console.log(skillsTechnologies)}, [skillsTechnologies]);
-
     return (
         <section className={styles.skillsTechnologies} id="skills-technologies">
             <h1>Skills & Technologies</h1>

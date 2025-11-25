@@ -1,6 +1,5 @@
 /// <reference lib="webworker" />
 
-
 self.onmessage = (e) => {
     const { width, height, startY, re0, im0, reStep, imStep, maxIter, frameId } = e.data;
     const data = new Uint8ClampedArray(width * height * 4);
@@ -29,7 +28,7 @@ self.onmessage = (e) => {
         }
     }
 
-    (self as DedicatedWorkerGlobalScope).postMessage(
+    self.postMessage(
         { buffer: data.buffer, startY, frameId },
         [data.buffer]
     );

@@ -3,7 +3,7 @@ import { useCallback, useEffect, useRef, useState } from "react";
 
 import ScrollBubble from "@components/ScrollBubble";
 
-const MandelbrotWorker = new URL("@/workers/MandelbrotWorker.ts", import.meta.url);
+const MandelbrotWorker = new URL("@/workers/MandelbrotWorker", import.meta.url);
 
 export default function MandelbrotCanvas() {
     const canvasRef = useRef<HTMLCanvasElement>(null);
@@ -205,7 +205,6 @@ export default function MandelbrotCanvas() {
                     phase = "zoomOut";
                     startView = { ...target, scale: 0 };
                     target = pickInterestingTarget();
-                    console.log("Target:", target);
                 }
             }
 

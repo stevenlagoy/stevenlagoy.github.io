@@ -8,7 +8,6 @@ export default function ScrollBubble() {
     const handleClick = () => {
         const el = document.querySelector('#content > main');
         if (!el) return;
-        console.log(el);
 
         const top = el.getBoundingClientRect().top + window.scrollY - 40;
 
