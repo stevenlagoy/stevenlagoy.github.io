@@ -61,7 +61,7 @@ export default function Navigator({ targets }: NavigatorProps) {
     useEffect(() => {console.log(activeId)}, [activeId])
 
     return (
-        <div className={styles.navigator}>
+        <nav className={styles.navigator}>
             {targets.map((t, i) => (
                 <div key={t.id} className={styles.item}>
                     {/* <span className={styles.label}>{t.id}</span> */}
@@ -82,6 +82,6 @@ export default function Navigator({ targets }: NavigatorProps) {
                     </div>
                 </div>
             ))}
-        </div>
+        </nav>
     )
 }
