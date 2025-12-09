@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>US Demographic Visualizer</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/topojson-client@3"></script>
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>US Demographic Visualizer</h1>
+    </header>
+    <main>
+        <div id="controls">
+            <button id="reset-button">Reset View</button>
+            <div id="load-descriptors">
+                <label for="load-descriptors-input">Load Descriptors</label>
+                <input type="file" id="load-descriptors-input" accept=".json">
+            </div>
+            <select id="demographic-select"></select>
+            <select id="scale-select">
+                <option value="raw">Raw % per county</option>
+                <option value="relative">Relative to US pop</option>
+                <option value="count">Count of members</option>
+            </select>
+            <form id="search-form">
+                <input type="search" id="search-input" placeholder="Search for a map feature">
+                <div id="suggestions" class="suggestions"></div>
+                <button type="submit">Search</button>
+            </form>
+        </div>
+        <div id="map"></div>
+        <div id="infobox">Click on a map feature to see demographic details. <br> Zoom in or out to see the nation, states, or counties.</div>
+    </main>
+    <footer>
+        <p>Made by <a id="profile" href="https://stevenlagoy.github.io/">Steven LaGoy</a></p>
+        <p>Purdue University Fort Wayne</p>
+        <p>Fall 2025</p>
+    </footer>
+</body>
+</html>

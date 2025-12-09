@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play Twochre!</title>
+    <style>
+        body { font-family: "Comic Sans MS", "Comic Sans"; text-align: center; margin: 50px; }
+        input, select, button { margin: 10px; padding: 5px; }
+    </style>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body style="background-color:grey">
+    <button onclick="exitGame()">Exit Game</button>
+    <button onclick="newGame()">New Game</button>
+    <button onclick="window.location.href='rules.html'">Read Rules</button>
+    <button>Report Bug</button>
+    <br>
+    <br>
+    <br>
+    <div class="container">
+        <!-- Game Board -->
+        <div class="game-board-container">
+            <img src="game_board_circle.png" alt="Game Board" width="800" height="800">
+        </div>
+
+        <div class="event-label-container">
+            <label id="eventsLabel" class="event-label"></label>
+        </div>
+
+        <!-- Buttons -->
+        <div class="button-container">
+            <button onclick="startGame()" id="start_game_button">Start Game</button>
+            <button onclick="determineRoles()" id="determine_roles_button">Determine Roles</button>
+            <button onclick="deal()" id="deal_button">Deal</button>
+            <button onclick="flipCard()" id="flip_card_button">Reveal Trump Card</button>
+            <button onclick="doRound()" id="start_round_button">Start Round</button>
+            <button onclick="playCard()" id="play_card_button">Play Card</button>
+            <button onclick="prepareDeal()" id="prepare_round_button">Prepare Next Round</button>
+            <button onclick="breakTie()" id="break_tie_button">Break Tie</button>
+            <button onclick="catLasso()" id="cat_lasso_button">Cat Lasso</button>
+            <button onclick="catBurgle()" id="cat_burgle_button">Cat Burgle</button>
+            <button onclick="catNap()" id="cat_nap_button">Cat Nap</button>
+        </div>
+
+        <!-- Center Piles -->
+        <div class="piles-container">
+            <img src="" class="flipped-pile", id="flippedPile">
+            <img src="" class="card-pile", id="cardPile">
+        </div>
+        <!-- Cards Number Counter -->
+        <div class="cards-number-container">
+            <div class="cards-number-counter">
+                <img src="card_number_counter.png" class="cards-number-counter">
+                <label class="cards-number-counter" id="cardsCounter"></label>
+            </div>
+        </div>
+
+        <!-- Players -->
+        <div class="player-container player0">
+            <!-- User Player Character -->
+            <div>
+                <img src="score_0040.png" id="player0_scoreCard">
+            </div>
+            <div class="card-display">
+                <img src="" id="player0_displayCard">
+            </div>
+            <div class="image-container">
+                <img src="player_frame.png" class="overlay">
+                <img src="purple_player.png" class="player-model">
+                <img src="player_background_white.png" class="background">
+            </div>
+            <br>
+            <label>You</label>
+        </div>
+        <div class="user-hand-container">
+            <img src="player_hand.png" class="hand-mat">
+            <img src="" id="player_hand_card0" class="hand-card0">
+            <img src="" id="player_hand_card1" class="hand-card1">
+            <img src="" id="player_hand_card2" class="hand-card2">
+            <img src="" id="player_hand_card3" class="hand-card3">
+            <img src="" id="player_hand_card4" class="hand-card4">
+        </div>
+
+        <div class="player-container player1">
+            <div>
+                <img src="score_0040.png" id="player1_scoreCard">
+            </div>
+            <div class="card-display">
+                <img src="" id="player1_displayCard">
+            </div>
+            <div class="image-container">
+                <img src="player_frame.png" class="overlay">
+                <img src="blue_player.png" class="player-model">
+                <img src="player_background_checker.png" class="background">
+            </div>
+            <br>
+            <label>Anna</label>
+            <div class="lasso-display">
+                <img src="" id="player1_lassoCard">
+            </div>
+        </div>
+
+        <div class="player-container player2">
+            <div>
+                <img src="score_0040.png" id="player2_scoreCard">
+            </div>
+            <div class="card-display">
+                <img src="" id="player2_displayCard">
+            </div>
+            <div class="image-container">
+                <img src="player_frame.png" class="overlay">
+                <img src="green_player.png" class="player-model">
+                <img src="player_background_stars.png" class="background">
+            </div>
+            <br>
+            <label>Tom</label>
+            <div class="lasso-display">
+                <img src="" id="player2_lassoCard">
+            </div>
+        </div>
+        
+        <div class="player-container player3">
+            <div>
+                <img src="score_0040.png" id="player3_scoreCard">
+            </div>
+            <div class="card-display">
+                <img src="" id="player3_displayCard">
+            </div>
+            <div class="image-container">
+                <img src="player_frame.png" class="overlay">
+                <img src="yellow_player.png" class="player-model">
+                <img src="player_background_sky.png" class="background">
+            </div>
+            <br>
+            <label>Lucy</label>
+            <div class="lasso-display">
+                <img src="" id="player3_lassoCard">
+            </div>
+        </div>
+
+        <div class="player-container player4">
+            <div>
+                <img src="score_0040.png" id="player4_scoreCard">
+            </div>
+            <div class="card-display">
+                <img src="" id="player4_displayCard">
+            </div>
+            <div class="image-container">
+                <img src="player_frame.png" class="overlay">
+                <img src="red_player.png" class="player-model">
+                <img src="player_background_trees.png" class="background">
+            </div>
+            <br>
+            <label>Matt</label>
+            <div class="lasso-display">
+                <img src="" id="player4_lassoCard">
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

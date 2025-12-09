@@ -1,0 +1,205 @@
+/* Main container for the board and players */
+.container {
+  position: relative;
+  width: 800px;  /* Match game board size */
+  height: 800px;
+  margin: auto;
+}
+
+/* Game board centered */
+.game-board-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.event-label-container {
+  position: absolute;
+  z-index: 5;
+  top: 15%;
+  left: 28%;
+  width: 350px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.event-label-container label {
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+}
+
+.button-container {
+  position: relative;
+  top: 75%;
+  left: 0%;
+  z-index: 3;
+}
+.button-container button {
+  width: 100px;
+}
+
+.piles-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: flex;
+  gap: 53px;
+  z-index: 4;
+  transform: translate(-50%, -50%);
+}
+
+.card-pile,
+.flipped-pile {
+  position: relative;
+  width: 90px;
+  height: 135px;
+  z-index: 5;
+}
+.card-pile img,
+.flipped-pile img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.cards-number-container {
+  position: absolute;
+  top: 35%;
+  left: 56.5%;
+  display: flex;
+  width: 40px;
+  height: 40px;
+  z-index: 4;
+  justify-content: center;
+  align-items: center;
+}
+.cards-number-counter {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.cards-number-counter img {
+  width: 100%;
+  height: 100%;
+}
+.cards-number-counter label {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -38%);
+  font-size: 22px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+  width: 110px;
+  height: 120px;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.background {
+  width: 100%;
+  height: 83%;
+  z-index: 1;
+}
+
+.player-model {
+  z-index: 3;
+}
+
+.overlay {
+  z-index: 5;
+}
+
+.player-container {
+  position: absolute;
+}
+
+.card-display {
+  position: absolute;
+  display: inline-block;
+  width: 90px;
+  height: 135px;
+
+}
+.card-display img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+#player0_displayCard { top: -275%; left: 11%; transform: rotate(0deg); }
+#player1_displayCard { top: -70%; left: -210%; transform: rotate(-53deg); }
+#player2_displayCard { top: 50%; left: -210%; transform: rotate(53deg); }
+#player3_displayCard { top: 50%; left: 230%; transform: rotate(-53deg); }
+#player4_displayCard { top: -70%; left: 230%; transform: rotate(53deg); }
+
+.user-hand-container {
+  position: absolute;
+  width: 447px;
+  height: 135px;
+  top: 84%;
+  left: 22%;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+}
+.hand-mat {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 2;
+}
+.hand-card0, .hand-card1, .hand-card2, .hand-card3, .hand-card4 {
+  position: absolute;
+  width: 80px;
+  height: 120px;
+  z-index: 2;
+  top: 5%;
+}
+.hand-card0 { left: 1.8%; }
+.hand-card1 { left: 20.5%; }
+.hand-card2 { left: 39.5%; }
+.hand-card3 { left: 58.5%; }
+.hand-card4 { left: 80%; }
+
+.selected {
+  border: 3px solid yellow; /* Highlight with a yellow border */
+}
+
+.player0 { top: 102%; left: 50%; transform: translate(-50%, 0); }
+.player1 { top: 85%; left: 106%; transform: translate(-50%, -50%); }
+.player2 { top: 25%; left: 106%; transform: translate(-50%, -50%); }
+.player3 { top: 25%; left: -6%; transform: translate(-50%, -50%); }
+.player4 { top: 85%; left: -6%; transform: translate(-50%, -50%); }
+
+.lasso-display {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  left: 15%;
+  height: 120px;
+  width: 80px;
+}
+.lasso-display img {
+  width: 100%;
+  height: 100%;
+}
