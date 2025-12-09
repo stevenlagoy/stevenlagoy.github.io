@@ -29,6 +29,7 @@ export default function Projects() {
                                     technologies={project.technologies}
                                     projectDesc={project.projectDesc}
                                     projectPath={project.projectPath}
+                                    publicPath={project.publicPath}
                                 />
                             ))}
                         </div>

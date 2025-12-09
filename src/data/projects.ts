@@ -18,6 +18,7 @@ export const projects = [
         technologies: "HTML, CSS, & Javascript",
         projectDesc: "A card game based on Euchre, with AI opponent behavior and unique mechanics. Play against 4 opponents in a game where nobody knows what card they'll play next.",
         projectPath: "/twochre",
+        publicPath: "/twochre/index.html"
     },
     {
         type: "Web Dev",
@@ -27,6 +28,7 @@ export const projects = [
         technologies: "HTML, CSS, & Typescript",
         projectDesc: "Calculator for Pokémon Platinum which suggests locations to earn experience based on your Pokémon's type and abilities.",
         projectPath: "/pokemon",
+        publicPath: "/poke-grind-locator/poke-grind-locator.html"
     },
     {
         type: "Web Dev",
@@ -36,6 +38,7 @@ export const projects = [
         technologies: "Javascript, Python",
         projectDesc: "A visualization tool for my ongoing research with the PFW Honors Program and JPUR to explore demographic information in the US by county.",
         projectPath: "/us-demographics-visualizer",
+        publicPath: "/demographics-visualizer/index.html"
     },
     {
         type: "Web Dev",
