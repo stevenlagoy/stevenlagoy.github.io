@@ -51,7 +51,7 @@ export default function AboutMe() {
                         bachelor's in Computer Science</a>. In Fall of 2025, I also started earning
                         a postgraduate degree through dual-enrollment. I hope to earn my master's
                         degree in Computer Science in Spring of 2027. I am an honors student with
-                        a cumulative GPA of 3.70.
+                        a cumulative GPA of 3.75.
                     </p>
                 </div>
                 <div className={styles.photoContainer}><img className={styles.photo} src={photo2} alt="" width={photosSize} height={photosSize} /></div>
