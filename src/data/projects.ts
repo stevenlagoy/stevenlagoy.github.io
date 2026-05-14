@@ -28,7 +28,7 @@ export const projects = [
         technologies: "HTML, CSS, & Typescript",
         projectDesc: "Calculator for Pokémon Platinum which suggests locations to earn experience based on your Pokémon's type and abilities.",
         projectPath: "/pokemon",
-        publicPath: "/poke-grind-locator/poke-grind-locator.html"
+        publicPath: "/poke-grind-locator/index.html"
     },
     {
         type: "Web Dev",
