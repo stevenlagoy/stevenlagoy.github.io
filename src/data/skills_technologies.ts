@@ -47,6 +47,10 @@ import githubLogo from '@assets/icons/github-svgrepo-com-mono.svg';
 // https://www.svgrepo.com/svg/445914/node-js
 // https://www.svgrepo.com/svg/378837/node
 import nodeLogo from '@assets/icons/node-svgrepo-com-color.svg';
+// https://www.svgrepo.com/svg/303617/kotlin-1-logo
+import kotlinLogo from '@assets/icons/kotlin-1-logo-svgrepo-com.svg'
+// https://www.svgrepo.com/svg/373817/lua
+import luaLogo from '@assets/icons/lua-svgrepo-com.svg'
 
 export const skills_technologies = {
     'Practiced' : [
@@ -107,10 +111,10 @@ export const skills_technologies = {
             link: 'https://github.com/stevenlagoy/poke-grind-locator',
         },
         {
-            img: rubyLogo,
+            img: kotlinLogo,
             background: 'white',
-            name: 'Ruby',
-            link: 'https://github.com/iPrakharV/CS-35000-Term-Project/tree/main/ruby_project',
+            name: 'Kotlin',
+            link: '/',
         },
         {
             img: sqlLogo,
@@ -150,5 +154,17 @@ export const skills_technologies = {
             name: 'PostgreSQL',
             link: 'https://github.com/stevenlagoy/Signing-Bee/tree/main/backend',
         },
+        {
+            img: rubyLogo,
+            background: 'white',
+            name: 'Ruby',
+            link: 'https://github.com/iPrakharV/CS-35000-Term-Project/tree/main/ruby_project',
+        },
+        {
+            img: luaLogo,
+            background: 'white',
+            name: 'Lua',
+            link: '/',
+        }
     ]
 }

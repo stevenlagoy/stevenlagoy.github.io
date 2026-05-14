@@ -1,5 +1,6 @@
 # Steven LaGoy - Portfolio
 <b>Created November 2025 by Steven LaGoy</b>
+<b>Updated May 2026 by Steven LaGoy</b>
 
 This website was made with React, built with Vite. All components and pages are custom-made, styled, and arranged by me.
 
